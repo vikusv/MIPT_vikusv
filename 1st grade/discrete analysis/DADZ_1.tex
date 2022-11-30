@@ -1,0 +1,1165 @@
+\documentclass[12pt]{article}
+
+\usepackage{baseset}
+\DeclareSymbolFont{operators}{OT1}{ntxtlf}{m}{n}
+\SetSymbolFont{operators}{bold}{OT1}{ntxtlf}{b}{n}
+\newcommand{\RomanNumeralCaps}[1]
+{\MakeUppercase{\romannumeral #1}}
+\usepackage{enumitem}
+
+	\author{Красоткина Виктория}
+	
+	\title{Дискретный анализ. Домашнее задание}
+	
+	\date{\today}
+	
+	\begin{document}
+		
+		\maketitle
+		\thispagestyle{empty}
+		\newpage
+		
+	\section{Алгебра логики и булевы функции}
+	\begin{enumerate}[label={\textbf{\arabic{section}.\arabic*}}]
+		\item Тождественны ли формулы $A$ и $B$:
+		\begin{enumerate}[label=\textbf{\alph*)}]
+			\item $A = x\rightarrow (y\rightarrow z)$, $B = (x\rightarrow y)\rightarrow(x\rightarrow z)$
+			\item $A = x\downarrow y$, $B = ((x|x)|(y|y))|((x|x)|(y|y))$
+		\end{enumerate}
+		\textbf{Решение}
+		\begin{enumerate}[label=\textbf{\alph*)}]
+			\item $A = x \rightarrow (y \rightarrow z)$, $B = (x \rightarrow y) \rightarrow (x \rightarrow z)$
+			
+			Рассмотрим таблицы истинности формул A и B:
+			
+			\begin{minipage}{0.45\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|c|c|} \hline
+					$x$ & $y$ & $z$ & $y \rightarrow z$ & $x \rightarrow (y \rightarrow z)$ \\ \hline
+					$0$ & $0$ & $0$ & $1$ & $1$ \\
+					$0$ & $0$ & $1$ & $1$ & $1$ \\
+					$0$ & $1$ & $0$ & $0$ & $1$ \\
+					$0$ & $1$ & $1$ & $1$ & $1$ \\
+					$1$ & $0$ & $0$ & $1$ & $1$ \\
+					$1$ & $0$ & $1$ & $1$ & $1$ \\
+					$1$ & $1$ & $0$ & $0$ & $0$ \\
+					$1$ & $1$ & $1$ & $1$ & $1$ \\ \hline
+				\end{tabular}
+				\captionof{table}{A}
+				\label{table1.1.1}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.54\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|c|c|c|} \hline
+					$x$ & $y$ & $z$ & $x \rightarrow y$ & $x \rightarrow z$ & $(x \rightarrow y) \rightarrow (x \rightarrow z)$\\ \hline
+					$0$ & $0$ & $0$ & $1$ & $1$ & $1$ \\
+					$0$ & $0$ & $1$ & $1$ & $1$ & $1$ \\
+					$0$ & $1$ & $0$ & $1$ & $1$ & $1$ \\
+					$0$ & $1$ & $1$ & $1$ & $1$ & $1$ \\
+					$1$ & $0$ & $0$ & $0$ & $0$ & $1$ \\
+					$1$ & $0$ & $1$ & $0$ & $1$ & $1$ \\
+					$1$ & $1$ & $0$ & $1$ & $0$ & $0$ \\
+					$1$ & $1$ & $1$ & $1$ & $1$ & $1$ \\ \hline
+				\end{tabular}
+				\captionof{table}{B}
+				\label{table1.1.2}
+			\end{minipage}\\
+			
+			Формулы \textbf{тождественны}.
+			\item $A = x \downarrow y$, $B = ((x|x)|(y|y))|((x|x)|(y|y))$
+			
+			Рассмотрим  таблицы истинности формул A и B:
+			
+			\begin{minipage}{0.3\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|} \hline
+					$x$ & $y$ & $x \downarrow y$ \\ \hline
+					$0$ & $0$ & $1$ \\
+					$0$ & $1$ & $0$ \\
+					$1$ & $0$ & $0$ \\
+					$1$ & $1$ & $0$ \\ \hline
+				\end{tabular}
+				\captionof{table}{A}
+				\label{table1.1.3}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.69\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|c|c|c|} \hline
+					$x$ & $y$ & $x|x$ & $y|y$ & $((x|x)|(y|y))$ & $((x|x)|(y|y))|((x|x)|(y|y))$ \\ \hline
+					$0$ & $0$ & $1$ & $1$ & $0$ & $1$ \\
+					$0$ & $1$ & $1$ & $0$ & $1$ & $0$ \\
+					$1$ & $0$ & $0$ & $1$ & $1$ & $0$ \\
+					$1$ & $1$ & $0$ & $0$ & $1$ & $0$ \\ \hline
+				\end{tabular}
+				\captionof{table}{B}
+				\label{table1.1.4}
+			\end{minipage}\\
+			
+			Формулы \textbf{тождественны}.
+		\end{enumerate}
+		\item Укажите фиктивные переменные у следующих функций или покажите, что все переменные являются существенными:
+		\begin{enumerate}[label=\textbf{\alph*)}]
+			\item $f(x,y,z) = 10100000$
+			
+			\item $f(x,y,z) = \overline{(x\rightarrow y)\leftrightarrow(\overline{y}\rightarrow\overline{x})}$
+			
+			\item $f(x_1,x_2,\cdots,x_n)=(x_1+x_2)\oplus(x_2+x_3)\oplus\cdots\oplus(x_{n-1}+x_n)\oplus(x_n+x_1)$
+		\end{enumerate}
+		\textbf{Решение}
+		\begin{enumerate}[label=\textbf{\alph*)}]
+			\item $f(x, y, z) = 10100000$
+			
+			Составим таблицу истинности для функции $f$ и исследуем ее переменные.
+			
+			\begin{minipage}{0.5\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|c|} \hline
+					$x$ & $y$ & $z$ & $f(x, y, z)$ \\ \hline
+					$0$ & $0$ & $0$ & $1$ \\
+					$0$ & $0$ & $1$ & $0$ \\
+					$0$ & $1$ & $0$ & $1$ \\
+					$0$ & $1$ & $1$ & $0$ \\
+					$1$ & $0$ & $0$ & $0$ \\
+					$1$ & $0$ & $1$ & $0$ \\
+					$1$ & $1$ & $0$ & $0$ \\
+					$1$ & $1$ & $1$ & $0$ \\ \hline
+				\end{tabular}
+				\captionof{table}{$f(x, y, z)$}
+				\label{table1.2.1}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.49\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|c|} \hline
+					$x$ & $y$ & $f(x, y, 0)$ & $f(x, y, 1)$ \\ \hline
+					$0$ & $0$ & $1$ & $0$ \\
+					$0$ & $1$ & $1$ & $0$ \\
+					$1$ & $0$ & $0$ & $0$ \\
+					$1$ & $1$ & $0$ & $0$ \\ \hline
+				\end{tabular}
+				\captionof{table}{Исследование $z$}
+				\label{table1.2.2}
+			\end{minipage}\\
+			
+			\begin{minipage}{0.5\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|c|} \hline
+					$x$ & $z$ & $f(x, 0, z)$ & $f(x, 1, z)$ \\ \hline
+					$0$ & $0$ & $1$ & $0$ \\
+					$0$ & $1$ & $0$ & $0$ \\
+					$1$ & $0$ & $0$ & $0$ \\
+					$1$ & $1$ & $0$ & $0$ \\ \hline
+				\end{tabular}
+				\captionof{table}{Исследование $y$}
+				\label{table1.2.3}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.49\linewidth}
+				\centering
+				\begin{tabular}{|c|c|c|c|} \hline
+					$y$ & $z$ & $f(0, y, z)$ & $f(1, y, z)$ \\ \hline
+					$0$ & $0$ & $1$ & $1$ \\
+					$0$ & $1$ & $0$ & $0$ \\
+					$1$ & $0$ & $1$ & $0$ \\
+					$1$ & $1$ & $0$ & $0$ \\ \hline
+				\end{tabular}
+				\captionof{table}{Исследование $x$}
+				\label{table1.2.4}
+			\end{minipage}\\
+			
+			Из таблиц \ref{table1.2.2} и \ref{table1.2.4} видно, что $f(x, y, 0) \neq f(x, y, 1)$ и $f(0, y, z) \neq f(0, y, z)$, следовательно $x$ и $z$ --- существенные. $f(x, 0, z) = f(x, 1, z)$, значит \textbf{$y$ --- фиктивная переменная}.
+			\item $f(x,y,z) = \overline{(x\rightarrow y)\leftrightarrow(\overline{y}\rightarrow\overline{x})}$
+			
+			Упростим выражение.
+			$$
+			\overline{(x\rightarrow y)\leftrightarrow(\overline{y}\rightarrow\overline{x})} = \overline{(\overline{x} + y) \leftrightarrow (y + \overline{x})} = \overline{1} = 0
+			$$
+			$\overline{x} + y = y + \overline{x}$ по свойству коммутативности.
+			
+			Все переменные \textbf{$x$, $y$, $z$ --- фиктивные}.
+			\item  $f(x_1,x_2,\cdots,x_n)=(x_1+x_2)\oplus(x_2+x_3)\oplus\cdots\oplus(x_{n-1}+x_n)\oplus(x_n+x_1)$
+			
+			\textbf{Решение}
+			
+			Рассмотрим $f(x_1, x_2, \cdots , x_n)$ при $x_1 = 0$ и $x_1 = 1$:
+			\begin{multline*}
+				f(0,x_2,\cdots,x_n)=(0+x_2)\oplus(x_2+x_3)\oplus\cdots\oplus(x_{n-1}+x_n)\oplus(x_n+0) = \\
+				= x_2 \oplus (x_2+x_3) \oplus \cdots \oplus (x_{n-1}+x_n) \oplus x_n
+			\end{multline*}
+			\begin{multline*}
+				f(1,x_2,\cdots,x_n)=(1+x_2)\oplus(x_2+x_3)\oplus\cdots\oplus(x_{n-1}+x_n)\oplus(x_n+1) = \\
+				= 1 \oplus (x_2+x_3) \oplus \cdots \oplus (x_{n-1}+x_n) \oplus 1
+			\end{multline*}
+			Видно, что $f(0, x_2, \cdots , x_n) \neq f(1, x_2, \cdots , x_n)$. Значит, $x_1$ --- значимая переменная. Аналогичные выкладки можно повторить для остальных переменных и доказать таким образом, что \textbf{все переменные значимые}.
+		\end{enumerate}
+		\item Упростите выражение:
+		$$
+		f(x,y,z) = \overline{(xy\rightarrow z\overline{y})} \leftrightarrow \left(\overline{(x\rightarrow \overline{xyz})}\rightarrow{(xy+yz+zx)}\right)
+		$$
+		
+		Укажите фиктивные переменные или докажите что все переменные являются существенными.
+		
+		\textbf{Решение}
+		\begin{multline*}
+			\overline{(xy\rightarrow z\overline{y})} \leftrightarrow \left(\overline{(x\rightarrow \overline{xyz})}\rightarrow{(xy+yz+zx)}\right) = \overline{(\overline{xy}+z\overline{y})} \leftrightarrow \left((x \rightarrow \overline{xyz}) + (xy+yz+zx)\right) =\\
+			= (xy \cdot \overline{z\overline{y}}) \leftrightarrow \left((\overline{x} + \overline{xyz}) + (xy+yz+zx)\right) = (xy\cdot(\overline{z}+y)) \leftrightarrow (\overline{x} + \overline{x} +\overline{yz} + xy + yz + zx) 		
+		\end{multline*}
+		Известно, что $\overline{x} + \overline{x} = \overline{x}$, $\overline{yz} + yz = 1$, $y \cdot y = y$. Тогда
+		\begin{multline*}
+			f(x,y,z) = (xy\overline{z} + xy) \leftrightarrow (\overline{x} + 1 + zx + zy)) = (xy \cdot (\overline{z} + 1)) \leftrightarrow 1 =	xy \leftrightarrow 1
+		\end{multline*}
+		\textbf{$z$ --- фиктивная переменная}.
+		\item Сколько существует булевых функций $n$ переменных, таких что эта функция принимает значение $1$ по крайней мере $2$ раза? $m>2$ раз?
+		
+		\textbf{Решение}
+		
+		Всего существует $2^{2^n}$ булевых функций (для $n$ переменных). Существует одна функция, которая принимает значение $0$ $2^n$ раз (то есть только нули). Тогда количество функций, принимающих значение $1$ хотя бы $1$ раз:
+		$$
+		N' = 2^{2^n} - 1
+		$$  
+		Также существует $2^n$ функций, принимающих значение $1$ только $1$ раз. Тогда количество функций, принимающих значение $1$ хотя бы $2$ раза:
+		$$
+		N = 2^{2^n} - 2^n - 1
+		$$
+		
+		\item Сколько существует булевых функций $n$ переменных, таких, что на нулевом наборе (т. е. все переменные принимают значение $0$) функция равняется нулю, на единичном наборе (т.е. все переменные принимают значение $1$) функция принимает значние $1$, и при этом выполняется свойство самодвойственности (т.е. на противоположных наборах функция принимает противоположные значения $\overline{f(x_1,\cdots,x_n)}=f(\overline{x_1},\cdots,\overline{x_n})$)?
+		
+		\textbf{Решение}
+		
+		Функция самодвойственная, следовательно, достаточно определить половину наборов: ${2^n}/2 = 2^{n-1}$. Из этих наборов один уже определен ($x_1=0,x_2=0,\cdots,x_n=0)$. Остается $2^{n-1} - 1$ наборов. Тогда количество булевых функций 
+		$$
+		2^{2^{n-1} - 1}
+		$$
+		\item Составим следующую булеву функцию $f(x,y,z)$, которая смотрит на значения переменных и принимает значение большинства из этих значений аргументов. Если большинство аргументов принимают значение $1$, то и сама функция выдаст в ответ $1$. Например, если две переменных равны $1$ а последняя $0$, то функция примет значение $1$. Если есть три единицы то функция примет значение $1$. С нулём аналогично. Представьте данную функцию в виде таблицы истинности и в виде булевой формулы. Все ли переменные являются существенными? Будет ли функция самодвойственной?
+		
+		\textbf{Решение}
+		
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{|c|c|c|c|} \hline
+				$x$ & $y$ & $z$ & $f(x,y,z)$  \\ \hline
+				$0$ & $0$ & $0$ & $0$ \\
+				$0$ & $0$ & $1$ & $0$ \\
+				$0$ & $1$ & $0$ & $0$ \\
+				$0$ & $1$ & $1$ & $1$ \\
+				$1$ & $0$ & $0$ & $0$ \\
+				$1$ & $0$ & $1$ & $1$ \\
+				$1$ & $1$ & $0$ & $1$ \\
+				$1$ & $1$ & $1$ & $1$ \\ \hline
+			\end{tabular}
+			\caption{таблица истинности}
+			\label{table1.6.1}
+		\end{table}
+		Проверим равенство аргументов и их равенство единице с помощью оператора конъюнкции. Если переменные совпадают, но равны $0$, их произведение тоже даст $0$. Если же они совпадают и равны $1$, произведение будет равняться единице. Тогда сложение (дизъюнкция) результатов вернет итоговое значение функции.
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{|c|c|c|c|c|c|c|} \hline
+				$x$ & $y$ & $z$ & $x\cdot y$ & $x\cdot z$ & $y\cdot z$ & $x\cdot y + x\cdot z + y\cdot z$  \\ \hline
+				$0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+				$0$ & $0$ & $1$ & $0$ & $0$ & $0$ & $0$ \\
+				$0$ & $1$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+				$0$ & $1$ & $1$ & $0$ & $1$ & $1$ & $1$ \\
+				$1$ & $0$ & $0$ & $0$ & $0$ & $1$ & $0$ \\
+				$1$ & $0$ & $1$ & $0$ & $1$ & $0$ & $1$ \\
+				$1$ & $1$ & $0$ & $1$ & $0$ & $0$ & $1$ \\
+				$1$ & $1$ & $1$ & $1$ & $1$ & $1$ & $1$ \\ \hline
+			\end{tabular}
+			\caption{проверка формулы}
+			\label{table1.6.2}
+		\end{table}
+		$$
+		f(x,y,z) = x\cdot y + x\cdot z + y\cdot z
+		$$
+		Из таблиц \ref{table1.6.1} и \ref{table1.6.2} видно, что полученная формула согласуется с заданным условием.
+		
+		Функция \textbf{является самодвойственной}. \textbf{Все переменные значимы}, так как если две из них различны, то третья влияет на значение функции.
+		\item Упростите выражение 
+		\[x_1\rightarrow (x_2\rightarrow x_3)\]
+		
+		Используя данный результат, упростите следующее выражение:
+		
+		\[x_1\rightarrow(x_2\rightarrow\cdots(x_{n-2}\rightarrow(x_{n-1}\rightarrow x_n)\cdots)\]
+		\textbf{Решение}
+		
+		$$
+		x \rightarrow y = \overline{x} + y~\Rightarrow~x_1\rightarrow (x_2\rightarrow x_3) = x_1 \rightarrow (\overline{x_2} + x_3) = \overline{x_1} + \overline{x_2} + x_3
+		$$
+		Тогда
+		$$
+		x_1\rightarrow(x_2\rightarrow\cdots(x_{n-2}\rightarrow(x_{n-1}\rightarrow x_n)\cdots) = \overline{x_1} + \overline{x_2} +\cdots+\overline{x_{n-2}} + \overline{x_{n-1}} + x_n
+		$$
+		\item Отсортируйте группу по порядку и возьмите свой порядковый номер. Вычтите из него единицу и переведите в двоичное число. Дополните это число нулями в начале для того, чтобы вектор значений имел длину, равную степени двойки. Данное двоичное число будет Вашим вектором значений функции. Постройте таблицу истинности и задайте функцию в виде булевой формулы используя любые символы.
+		
+		\textbf{Решение}
+		
+		Порядковый номер --- $5$. $5-1=4$. В двоичной системе:
+		$$
+		4_{10} = 0100_2
+		$$
+		\vspace{-20pt}
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{|c|c|c|} \hline
+				$x$ & $y$ & $f(x, y)$ \\ \hline
+				$0$ & $0$ & $0$ \\
+				$0$ & $1$ & $1$ \\
+				$1$ & $0$ & $0$ \\
+				$1$ & $1$ & $0$ \\ \hline
+			\end{tabular}
+			\caption{таблица истинности}
+			\label{table1.8.1}
+		\end{table}
+		$$
+		f(x,y) = (\overline{x} \rightarrow y) \wedge \overline{x}
+		$$
+	\end{enumerate}
+	\newpage
+	\section{Множества и операции с ними}
+	\begin{enumerate}[label={\textbf{\arabic{section}.\arabic*}}]
+		\item Пусть имеется множество $S = \{s\in\mathbb{N}_0| \exists n\in\mathbb{N}_0: s = n^2\}$
+		
+		Верно ли, что $A = {0, 1, 4, 9} = S$? Верно ли, что $A = \{0, 1, 4, 9, \dots\} = S$? В случае положительного ответа докажите, в случае отрицательного приведите контрпример.
+		\textbf{Решение}
+		\item Верно ли, что для любых множеств $A$ и  $B$ выполняется
+		$$
+		(A\setminus B)\cap ((A\cup B)\setminus (A\cap B)) = A\setminus B
+		$$
+		\textbf{Решение}
+		
+		Распишем левую часть выражения с использованием алгебры логики:
+		\begin{multline*}
+			(a\wedge\overline{b})\wedge ((a\vee b)\wedge\overline{(a\wedge b)}) = a\overline{b}\cdot((a + b)\cdot\overline{ab}) = a\overline{b}\cdot((a+b)\cdot(\overline{a}+\overline{b})) = \\
+			= a\overline{b}\cdot(a\overline{a}+a\overline{b}+b\overline{a}+b\overline{b}) = a\overline{b}\cdot(a\overline{b}+b\overline{a}) = a\overline{b} + ab\overline{a}\overline{b} = a\overline{b} ~\Leftrightarrow~ A\setminus B
+		\end{multline*}
+		Преобразовав левую часть выражения, мы получили правую ($A\setminus B = A\setminus B$). Таким образом, мы доказали, что приведенное утверждение \textbf{выполняется} для любых множеств $A$ и $B$.
+		\item С помощью алгебры логики докажите или опровергните для произвольных множеств $A$, $B$ и $C$
+		$$
+		((A\setminus B)\cup(A\setminus C))\cap (A\setminus(B\cap C)) = A\setminus (B\cup C)
+		$$
+		
+		\textbf{Решение}
+		
+		Преобразуем левую часть:
+		\begin{multline*}
+			((a\wedge\overline{b})\vee(a\wedge\overline{c}))\wedge (a\wedge\overline{(b\wedge c)}) = (a\overline{b} + a\overline{c})\cdot(a\overline{(b+c)}) = (a\overline{b} + a\overline{c})\cdot(a\overline{b}\cdot\overline{c}) = \\
+			= a\overline{b}\cdot\overline{c} + a\overline{b}\cdot\overline{c} = a\overline{b}\cdot\overline{c} ~\Leftrightarrow~ A\setminus(B\cap C)
+		\end{multline*}
+		Таким образом, правая и левая части не совпали ($A\setminus(B\cap C) \neq A\setminus (B\cup C)$), следовательно утверждение \textbf{неверно}.
+		\item С помощью аппарата характеристических функций докажите или опровергните для любых множеств $A$, $B$ и $C$
+		$$
+		(A\cap B)\setminus C = (A\setminus C)\cap (B\setminus C)
+		$$
+		\textbf{Решение}
+		
+		Рассмотрим левую часть:
+		$$
+		\chi_{(A\cap B)\setminus C} = \chi_{A\cap B}\cdot(1-\chi_C) = \chi_A\chi_B\cdot(1-\chi_C)
+		$$
+		Теперь рассмотрим правую часть:
+		$$
+		\chi_{(A\setminus C)\cap (B\setminus C)} = (\chi_A\cdot(1 - \chi_C))\cdot(\chi_B\cdot(1 - \chi_C)) = \chi_A\chi_B(1-\chi_C)
+		$$
+		Утверждение \textbf{верно}.
+		\item Верно ли для произвольных $A$ и $B$
+		$$
+		(A\cup B)\setminus (A\setminus B)\subseteq B?
+		$$
+		\textbf{Решение}
+		
+		Перепишем выражение с помощью алгебры логики:
+		\begin{multline*}
+			(a\vee b)\wedge\overline{(a\wedge\overline{b})}\rightarrow b = (a+b)\cdot\overline{a\overline{b}} \rightarrow b = (a+b)\cdot(\overline{a}+b) \rightarrow b = ab + \overline{a}b + b \rightarrow b = \\
+			= b + b \rightarrow b = b \rightarrow b
+		\end{multline*}
+		Утверждение \textbf{верно}.
+		\item Известно, что $A\cap X = B\cap X$ и $A\cup Y = B\cup Y$. Верно ли, что
+		$$
+		A\cup (Y\setminus X) = B\cup(Y\setminus X)
+		$$
+		\textbf{Решение}
+		
+		Перепишем выражение с помощью алгебры логики обе части утверждения:
+		$$
+		a\vee(y\wedge\overline{x}) = a + y\overline{x}
+		$$
+		$$
+		b\vee(y\wedge\overline{x}) = b + y\overline{x}
+		$$
+		Условие также перепишем.
+		$$
+		ax = bx,~ a+y = b+y
+		$$
+		Оно выполнимо только если $a = b$ или $y=0$, $x=0$. В обоих случаях получаем
+		$$
+		a + y\overline{x} = b + y\overline{x}
+		$$
+		\textbf{Верно}.
+		\item Пусть $P = [10, 40]$, a $Q = [20,30]$. Для отрезка $A$ верно следующее 
+		$$
+		((x\in A)\rightarrow(x\in P))\wedge((x\in Q)\rightarrow(x\in A))
+		$$		
+		Какая максимальная длина отрезка $A$? А минимальная?
+		
+		\textbf{Решение}
+		
+		В выражении  присутствует конъюнкция, следовательно утверждение верно только если $((x\in A)\rightarrow(x\in P))$ верно и $((x\in Q)\rightarrow(x\in A))$ верно. 
+		По условию $x\in A$. Первое утверждение верно, если $x\in A$ и $x\in P$. Второе утверждение верно всегда, так как если $x\in A$ (а это по условию верно), то импликация всегда равна $1$. Таким образом, $x\in P$, значит \textbf{минимальная длина отрезка $A$ --- $10$, максимальная --- $40$}.
+		\item  $A, B, C, D$ --- отрезки прямой, для которых выполнено $A\triangle B = C\triangle D$. Верно ли, что $A\cap B\subseteq C$?
+		
+		\textbf{Решение}
+		
+		Запишем условие и утверждение, которое необходимо доказать (или опровергнуть), используя алгебру логики.
+		$$
+		A\triangle B = C\triangle D ~\Leftrightarrow~ a\oplus b = c\oplus d
+		$$ 
+		Такая запись эквивалентна условию
+		$$
+		\left[(a = b \cap c = d)\cup(a\neq b \cap c\neq d)\right]
+		$$
+		Само утверждение запишется так:
+		$$
+		A\cap B\subseteq C~\Leftrightarrow~ab\rightarrow c = \overline{ab} + c
+		$$
+		Приведем контрпример. Пусть $a=1$, $b=1$, $c=0$, $d=0$. Тогда условие выполняется, но утверждение возвращает $0$. Следовательно, \textbf{неверно}.
+		\item Постройте наиболее удобную нормальную форму для выражения: 
+		$$
+		f(x,y,z) = (x\oplus y\oplus z)\rightarrow (xy\vee z)
+		$$
+		Переведите ее в другую форму (например ДНФ в КНФ, а КНФ в ДНФ). Приведите совершенную форму к простому виду в обоих случаях. 
+		
+		\textbf{Решение}
+		
+		Преобразуем выражение.
+		\begin{multline*}
+			(x\oplus y\oplus z)\rightarrow (xy\vee z) = (x\overline{y}+\overline{x}y)\oplus z\rightarrow (xy + z) = \overline{(x\overline{y}+\overline{x}y)\oplus z} + xy + z = (x\overline{y}+\overline{x}y)\leftrightarrow z + xy + z = \\
+			= (x\overline{y}+\overline{x}y)\cdot z + \overline{(x\overline{y}+\overline{x}y)}\cdot\overline{z} +xy + z = x\overline{y}z + \overline{x}yz + \overline{x\overline{y}} \cdot \overline{\overline{x}y}\cdot \overline{z} + xy + z = x\overline{y}z + \overline{x}yz + (\overline{x} + y) \cdot (x + \overline{y})\cdot\overline{z} +xy + z = \\
+			= x\overline{y}z + \overline{x}yz + (x\overline{x}+\overline{x}\cdot\overline{y}+xy+y\overline{y})\cdot\overline{z} + xy + z = x\overline{y}z + \overline{x}yz + \overline{x}\cdot\overline{y}\cdot\overline{z}+ xy\overline{z} + xy + z = z(x\overline{y} + \overline{x}y + 1) +  \overline{x}\cdot\overline{y}\cdot\overline{z}+ xy = \\
+			= z + xy + \overline{x}\cdot\overline{y}\cdot\overline{z}
+		\end{multline*}
+		Мы получили выражение в ДНФ. Переведем в КНФ:
+		$$
+		z + xy + \overline{x}\cdot\overline{y}\cdot\overline{z} = (x+\overline{x})(y+\overline{y})z+xy(z+\overline{z})+\overline{x}\cdot\overline{y}\cdot\overline{z} = xyz + \overline{x}yz+x\overline{y}z+\overline{x}\cdot\overline{y}z + \overline{x}\cdot\overline{y}\cdot\overline{z}
+		$$
+	\end{enumerate}
+	\newpage
+	\section{Математические определения, утверждения, методы доказательства}
+	\begin{enumerate}[label={\textbf{\arabic{section}.\arabic*}}]
+		\item Докажите, используя контрапозицию, что если $ab$ не делится на $c$, то $a$ и $b$ по отдельности не делятся на $c$. Все числа целые.
+
+		
+		\textbf{Решение}
+		
+		Пусть\\		
+		$$
+		A = a \vdots c
+		$$
+		$$
+		B = b \vdots c
+		$$
+		$$
+		C = ab \vdots c
+		$$
+		Тогда по закону контрапозиции
+		$$
+		((A + B) \rightarrow C) \rightarrow (\overline{C} \rightarrow \overline{(A + B)}) = 1~\Rightarrow~\overline{C} \rightarrow \overline{A}\cdot\overline{B} = 1
+		$$
+		Значит, если $ab$ не делится на $c$, то по отдельности числа тоже не делятся на $c$.
+		\item Докажите, что число $\sqrt{2} + \sqrt{3}$ иррационально.
+		
+		\textbf{Решение}
+		
+		Докажем от противного. Пусть $\sqrt{2} + \sqrt{3}$ --- рационально. Тогда
+		$$
+		\sqrt{2} + \sqrt{3} = \frac{p}{q},~p\in\mathbb{Z},~q\in\mathbb{N}
+		$$
+		Возведем обе части в квадрат. 
+		$$
+		5 + 2\sqrt{6} = \frac{p^2}{q^2}
+		$$
+		Выразим $\sqrt{6}$:
+		$$
+		\sqrt{6} = \frac{\dfrac{p^2}{q^2} - 5}{2}~\Rightarrow~\sqrt\in\mathbb{R}
+		$$
+		Рассмотрим, правда ли, что $\sqrt{6}$ --- действительное число.
+		$$
+		\sqrt{6} = \frac{p}{q},~p\in\mathbb{Z},~q\in\mathbb{N}
+		$$
+		Снова возведем в квадрат:
+		$$
+		6 = \frac{p^2}{q^2}~\Rightarrow~6q^2 = p^2~\Rightarrow~p^2 \vdots 6~\Rightarrow~p \vdots 6
+		$$
+		Тогда пусть $p = 6k$. 
+		$$
+		6q^2 = 36k^2~\Rightarrow~q^2 = 6k^2~\Rightarrow~q \vdots 6
+		$$
+		Пусть $q = 6m$. Тогда
+		$$
+		\frac{p}{q} = \frac{6k}{6m}
+		$$
+		Написанная выше дробь сократима. Противоречие означает, что $\sqrt{2} + \sqrt{3} \notin \mathbb{Q}$
+		\item Докажите, используя индукцию:
+		$$
+		\sum\limits_{k=1}^n k\cdot 2^k = 2\cdot(2^n(n - 1) + 1)  
+		$$
+		
+		\textbf{Решение}
+		
+		\begin{itemize}
+			\item База. Для $k = 1$
+			$$
+			2 = 2~\text{--- верно}
+			$$
+			\item Шаг. Пусть верно для $k = p$. 
+			$$
+			\sum\limits_{k=1}^p k\cdot 2^k = 2\cdot(2^p(p - 1) + 1) 
+			$$
+			Тогда докажем для $k = p + 1$:
+			\begin{multline*}
+				\sum\limits_{k=1}^{p+1} k\cdot 2^k = 2\cdot(2^p(p - 1) + 1) + (p+1)\cdot2^{p+1} = 2\cdot(2^p(p - 1) + 1 +2^p(p+1)) =\\
+				= 2\cdot (2^p\cdot2p + 1) = 2\cdot(2^{p+1}((p+1) - 1) + 1)
+			\end{multline*}
+			Следовательно, для $k = p + 1$ верно. \textbf{Доказано} по индукции.
+		\end{itemize}
+		\item Какое из двух утверждений сильнее:
+		
+		$A = \forall x \exists y: \mathcal{K}(x,y)$ или $B = \exists y\forall x: \mathcal{K}(x,y)$?
+		
+		$\mathcal{K}(x,y)$ — какая-то формула
+		
+		\textbf{Решение}
+		Если существует $y$, такое, что для любого $x$ выполняется некоторое условие, то для любого $x$ точно существует $y$, при котором выполняется равенство. Следовательно,
+		$$
+		B \rightarrow A
+		$$
+		Значит, \textbf{утверждение $B$ сильнее}.
+		\item Подумайте, чему может равняться данная сумма:
+		$$
+		\sum_{k=1}^n \frac{k}{2^k}
+		$$
+		Найдите
+		$$
+		\sum_{k=1}^\infty \frac{k}{2^k}
+		$$
+		
+		\textbf{Решение}
+		Из \textbf{3.3} разумно предположить, что
+		$$
+		\sum_{k=1}^n \frac{k}{2^k} = 
+		$$
+		$$
+		\sum_{k=1}^{\infty} \frac{k}{2^k} = \frac{1}{2} + \frac{2}{4} + \frac{3}{8} + \frac{4}{16} + \dots + \frac{n}{2^n} + \dots = 2
+		$$
+		
+		\item В доме живут муж $A$, жена $B$ и их дети $C,D$ и $E$. При этом верны следующие утверждения:
+		\begin{itemize}
+			\item Если А смотрит телевизор, то и B смотрит телевизор.
+			
+			\item Хотя бы один из C и D смотрит телевизор.
+			
+			\item Ровно один из B и C смотрит телевизор
+			
+			\item C и D либо оба смотрят телевозор, либо оба не смотрят
+			
+			\item Если E смотрит телевизор, то A и D тоже смотрят телевизор
+		\end{itemize}		
+		Кто в итоге смотрит телевизор, а кто нет?
+		
+		\textbf{Решение}
+		
+		Пусть $A$ = $A$ смотрит телевизор и т.д. Тогда запишем приведенные в условии утверждения с помощью алгебры логики:
+		$$
+		A \rightarrow B = 1
+		$$
+		$$
+		C + D = 1
+		$$
+		$$
+		B\oplus C = 1
+		$$
+		$$
+		C\Leftrightarrow D = 1
+		$$
+		$$
+		E \rightarrow AB = 1
+		$$
+		Тогда запишем
+		$$
+		(A \rightarrow B) \cdot (C + D) \cdot (B\oplus C) \cdot (C\Leftrightarrow D) \cdot (E \rightarrow AB) = 1
+		$$
+		Теперь преобразуем 
+		$$
+		(\overline{A} + B) \cdot (C + D) \cdot (\overline{B}C+B\overline{C}) \cdot (\overline{\overline{D}C + D\overline{C}}) \cdot (\overline{E} + AD) = 1
+		$$
+		$$
+		(\overline{A} + B)\cdot (\overline{B}CC + BC\overline{C} + \overline{B}CD + B\overline{C}D)\cdot \overline{\overline{D}C}\cdot \overline{D\overline{C}}\cdot(\overline{E}+AD) = 1
+		$$
+		$$
+		(\overline{A}+B)\cdot (\overline{B}C+\overline{B}CD+B\overline{C}D)\cdot(D+\overline{C})\cdot(C+\overline{D}) \cdot (\overline{E}+AD) = 1
+		$$
+		$$
+		(\overline{A}\overline{B}C+\overline{A}\overline{B}CD +\overline{A}B\overline{C}D+B\overline{C}D)\cdot(D+\overline{C})\cdot(C+\overline{D}) \cdot (\overline{E}+AD) = 1
+		$$
+		$$
+		(\overline{A}\overline{B}CD+\overline{A}\overline{B}CD + \overline{A}B\overline{C}D + B\overline{C}D + \overline{A}B\overline{C}D+B\overline{C}D) \cdot (C + \overline{D}) \cdot (\overline{E} + AD) = 1 
+		$$
+		$$
+		\overline{A}\overline{B}CD \cdot (\overline{E} AD) = 1
+		$$
+		$$
+		\overline{A}\overline{B}CD\overline{E} = 1
+		$$
+		Из полученного выражения следует, что $C$ и $D$ смотрят телевизор, а $A$, $B$ и $D$ --- нет.
+		\item Докажите, используя контрапозицию:
+		
+		если $x^2-6x+5$ --- четно, то $x$ нечетно.
+		
+		\textbf{Решение}
+		
+		Пусть $A = x$ --- четно, $B = x^2 - 6x +5$ --- нечетно. Очевидно, что если $x$ --- четно, то $x^2$ и $6x$ тоже четно. Следовательно $x^2 - 6x +5$ нечетно. Тогда по закону контрапозиции
+		$$
+		A\rightarrow B \rightarrow \overline{B}\rightarrow \overline{A} = 1~\Rightarrow~\overline{B} \rightarrow \overline{A} = 1 
+		$$
+		То есть, если $x^2 - 6x +5$ четно, то $x$ --- нечетно.
+		
+		\item Докажите
+		$$
+		\sum_{k=1}^n k^4 = \frac{1}{30} n(n+1)(2n+1)(3n^2+3n-1)
+		$$
+		
+		\textbf{Решение}
+		
+		Докажем по индукции.
+		\begin{itemize}
+			\item База. Для $k = 1$
+			$$
+			1 = \frac{1}{30}\cdot 1\cdot 2\cdot 3\cdot 5 = 1~\text{--- верно}
+			$$ 
+			\item Шаг. Пусть верно для $k = p$.
+			\begin{multline*}
+				\sum_{k=1}^p k^4 = \frac{1}{30} p(p+1)(2p+1)(3p^2+3p-1) = \frac{1}{30}(p^2 + p)(2p + 1)(3p^2 + 3p - 1) = \\
+				= \frac{1}{30}(2p^3 + 3p^2 + p)(3p^2 + 3p - 1) = \frac{1}{30}(6p^5 + 15p^4 + 10p^3 - p) = \frac{p^5}{5} + \frac{p^4}{2} + \frac{p^3}{3} -\frac{p}{30}
+			\end{multline*}
+			Тогда докажем для $k = p+1$:
+			\begin{multline*}
+				\frac{(p+1)^5}{5} + \frac{(p+1)^4}{2} + \frac{(p+1)^3}{3} -\frac{p+1}{30} - \left(\frac{p^5}{5} + \frac{p^4}{2} + \frac{p^3}{3} -\frac{p}{30}\right) = \\
+				= \frac{5p^4 + 10p^3 + 10p^2 + 5p + 1}{5} + \frac{4p^3 + 6p^2 + 4p + 1}{2} + \frac{3p^2 + 3p + 1}{3} - \frac{1}{30} = \\
+				= \frac{30p^4 + 120p^3 + 180p^2 + 120p + 31}{30} - \frac{1}{30} = p^4 + 4p^3 + 6p^2 + 4p + 1 = (p+1)^4
+			\end{multline*}
+			Таким образом, $A(p+1) = A(p) + (p+1)^4$, следовательно \textbf{доказано} по индукции.			
+		\end{itemize}
+	\end{enumerate}
+	\newpage
+	\section{Комбинаторика \RomanNumeralCaps{1}}
+	\begin{enumerate}[label={\textbf{\arabic{section}.\arabic*}}]
+		\item У Васи $6$ друзей. В течение $15$ дней, он приглашает троих из них в гости	каждый день так, что никакая тройка не повторяется. Какое кол-во способов	сделать это есть у Васи?
+
+		
+		\textbf{Решение}
+		
+		Всего способов разделить друзей на тройки без повторений 
+		$$
+		C_n^k = C_6^3 = \frac{6!}{3!3!} = 20
+		$$
+		Тогда способов пригашать эти тройки в течение $15$ дней
+		$$
+		C_n^k = C_{20}^{15} = \frac{20!}{15!5!} = \frac{16\cdot17\cdot18\cdot20}{5!} = 15504
+		$$
+		Это и есть ответ.
+		
+		\item Сколько $10$-значных чисел можно составить из цифр $1$, $2$, $3$ таких, что они делятся на $9$ и цифра $3$ используется в них ровно $2$ раза?
+		
+		\textbf{Решение}
+		
+		Условие делимости на $9$ --- сумма цифр числа делится на $9$. Цифры $3$ можно поставить 
+		$$
+		C_n^k = C_{10}^{2} = \frac{10!}{2!8!} = \frac{9\cdot10}{2} = 45
+		$$
+		Проверим все варианты количества единиц и двоек в числе, при котором оно делится на $9$. Оказывается, такое вариант только один: $2$ тройки, $4$ двойки и $4$ единицы. Тогда нам нужно понять, сколькими способами мы можем поставить цифры $1$ и $2$. Единицы расставляются
+		$$
+		C_n^k = C_{8}^{4} = \frac{8!}{4!4!} = 70
+		$$
+		способами. Двойки встанут на оставшиеся места. Тогда всего способов расставить цифры в числе
+		$$
+		C_{10}^{2}\cdot C_{8}^{4} = 45\cdot70 = 3150
+		$$
+		\textbf{3150 способов}.
+		
+		\item Имеется колода из $52$ карт. Сколько существует способов вынуть $4$ карты так, чтобы оказалось $3$ масти? $2$ масти?
+		
+		\textbf{Решение}
+		
+		Всего имеется $4$ масти. Тогда каждой масти по $\dfrac{52}{4} = 13$ карт. Если нужно три масти, то две карты будут одной масти. Значит можно выбрать $C_n^k$ вариантами карты каждой масти. Всего будет
+		$$
+		C_{13}^{2}\cdot C_{13}^{1}\cdot C_{13}^{1} = \frac{13!}{2!11!}\cdot \frac{13!}{12!}\cdot \frac{13!}{12!} = \frac{12\cdot13^3}{2} = 13182
+		$$
+		Так как мастей $4$, какой-то одной среди выбранных карт не будет. Тогда нужно еще умножить на $4$. Ответ: \textbf{52728}.
+		
+		Для двух мастей есть два варианта: либо по две карты каждой масти, либо $3$ карты одной и $1$ --- другой. Тогда количество вариантов
+		$$
+		C_{13}^{2}\cdot C_{13}^{2} + C_{13}^{3}\cdot C_{13}^{1} = 6084 + 3178 = 9262
+		$$
+		Из $4$ мастей выбрать две существует $C_2^4 = 6$ вариантов. Значит умножим все на $6$. Ответ: \textbf{55572}.
+		
+		\item Сколько способов разместить $20$ различных книг на $5$ полках, если каждая	полка может вместить все $20$ книг? Размещения, отличающиеся порядком книг на полках, считаются различными.
+		
+		\textbf{Решение}
+		
+		Если бы все книги были одинаковые, было бы
+		$$
+		\overline{C}_n^k = \overline{C}_{5}^{20} = C_{24}^{20} = \frac{21\cdot 22\cdot 23\cdot 24}{4!} = 10626
+		$$
+		способов поставить их на $5$ полок. Для каждого способа еще существует $20!$ способов переставить книги, так как все они разные. Значит всего способов
+		$$
+		N = \frac{24!20!}{4!20!} = \frac{24!}{4!}
+		$$ 
+		
+		\item Сколькими способами можно из чисел от $1$ до $100$ три числа так, чтоб их сумма делилась на $3$?
+		
+		\textbf{Решение}
+		
+		Признак делимости на $3$ --- сумма цифр делится на $3$. Всего в диапазоне от $1$ до $100$ существует $33$ числа, которые без остатка делятся на $3$, $34$ числа, делящиеся на $3$ с остатоком $1$ и $34$ --- с остатком $2$. Можно взять либо три числа, которые делятся с одинаковым остатком, либо с разным. Тогда 
+		$$
+		N = 2C_{33}^3 + C_{34}^3 + C_{33}^1\cdot C_{33}^1\cdot C_{34}^1 = 2\cdot5456 + 5984 + 33^2\cdot 34 = 53922
+		$$		
+		
+		\item Маша варит борщ. Ей нужно положить в кастрюлю ровно $30$ овощей, у нее есть морковь, свекла, картофель и лук. Сколькими способами она сможет это сделать, если $5$ картофелин и $2$ свеклы Маше нужно положить обязательно?
+
+		
+		\textbf{Решение}
+		
+		Всего останется $23$ места в кастрюле, на которые можно положить овощи. Существует $4$ вида овощей. Тогда вариантов наполнения супа
+		$$
+		\overline{C}_n^k = \overline{C}_{4}^{23} = C_{26}^{23} = \frac{26!}{3!23!} = \frac{24\cdot25\cdot26}{6} = 2600
+		$$
+		\textbf{2600 способов}.
+		
+		\item Имеется $2n$ человек. Нужно разбить их на пары. Порядок неважен, как внутри пары, так и среди пар. Сколько существует способов это сделать?
+		
+		\textbf{Решение}
+		
+		Первого человека можно выбрать $2n$ способами. Выбрать его пару (второй человек) --- $2n-1$ способами. Третий человек --- $2n-2$ способов. На $n-1$-ом человеке останется только один вариант. Тогда всего вариантов
+		$$
+		2n\cdot(2n-1)\cdot(2n-2)\cdot\dots\cdot1 = (2n)!
+		$$
+		
+		\item Имеется $k$ различных шаров и $n$ различных ящиков. Сколько вариантов разложить шары по ящикам так, чтобы в первом было $k_1$ шаров, во втором --- $k_2$, и так далее, в $n$-ом ящике $k_n$ шаров.
+		
+		\textbf{Решение}
+		
+		Всего вариантов разложить шары по ящикам --- $k!$. Но среди этих вариантов существуют такие, что шары в ящике просто поменяны местами, нужно от них избавиться. Для $i$-го ящика таких вариантов $k_i!$. Тогда
+		$$
+		N = \frac{k!}{k_1!k_2!\dots k_n!} = P(k_1,k_2,\dots,k_n)
+		$$
+		
+		\item Имеется $nk$ различных шаров и $n$ неразличимых ящиков. Сколько вариантов разложить шары по ящикам так, чтобы количество шаров в ящиках было по $k$ шаров?
+		
+		\textbf{Решение}
+		
+		Как в прошлой задаче, вариантов разложить по $n$ различным ящикам
+		$$
+		N' = P(k_1,k_2,\dots,k_n) = \frac{(nk)!}{k_1!k_2!\dots k_n!}
+		$$
+		Однако в данной задаче все ящики одинаковые. Это значит, что среди $N'$ вариантов существует $n!$ способов поменять ящики местами. Кроме того, $k_1 = k_2 =\dots = k_n = k$. Тогда
+		$$
+		N = \frac{N'}{n!} = \frac{(nk)!}{(k!)^nn!}
+		$$
+		
+		\item Из $36$-карточной колоды на стол равновероятно и случайно выкладывается последовательность из $4$ карт. Какова вероятность того, что две из них красные, а две черные?
+		
+		\textbf{Решение}
+		
+		Всего вариантов положить $4$ карты на стол:
+		$$
+		C_n^k = C_{36}^4 = \frac{36!}{4!32!} = \frac{33\cdot34\cdot35\cdot36}{24} = 58905
+		$$
+		Каждой масти имеется $\dfrac{36}{4} = 9$ карт. Черных карт, как и красных, соответственно, по $18$ штук. Вариантов выбрать по 2 карты разных цветов
+		$$
+		C_{18}^2\cdot C_{18}^2 = \left(\frac{18!}{2!16!}\right)^2 = \left(\frac{17\cdot18}{2}\right)^2 = 23409 
+		$$
+		Тогда вероятность
+		$$
+		P = \frac{23409}{58905} = \frac{153}{385}
+		$$
+		
+		\item Сколько существует $6$-значных чисел, в которых четных и нечетных цифр поровну?
+		
+		\textbf{Решение}
+		
+		Всего есть $5$ четных (ноль считается) и $5$ нечетных цифр. Пускай первая цифра числа четная. Тогда вариантов
+		$$
+		N_1 = 4\cdot5^5\cdot C_5^2 = 125000
+		$$
+		Если же первая цифра нечетная, то вариантов
+		$$
+		N_2 = 5^6\cdot C_5^2 = 156250
+		$$
+		Мы домножаем на $C_5^2$, чтобы выбрать место оставшимся двум четным/нечетным цифрам.
+		$$
+		N = N_1 + N_2 = 281250
+		$$
+		Ответ: \textbf{281250}.
+		
+		\item Сколько существует $7$-значных чисел, в которых ровно две четные цифры и перед каждой четной цифрой обязательно стоит нечетная?
+		
+		\textbf{Решение}
+		
+		Будем считать четную и идущую перед ней нечетную цифру одним элементом. Разновидностей таких элементов существует $5\cdot5 = 25$. Тогда нам нужно разместить $3$ нечетные цифры и $2$ элемента на $5$ мест. Вариантов это сделать:
+		$$
+		N = C_5^3\cdot5^3\cdot25^2 = 781250
+		$$
+		В написанной выше формуле коэффициент $C_5^3$ равен количеству вариантов выбрать место для трех нечетных цифр. Результат будет такой же, если мы захотим наоборот выбрать место для двух элементов (нечетноая и четная цифра), т.к $C_5^3 = C_5^2$.
+		
+		\textbf{781250 чисел}.
+	\end{enumerate}
+	\newpage
+	\section{Комбинаторика \RomanNumeralCaps{2}}
+	\begin{enumerate}[label={\textbf{\arabic{section}.\arabic*}}]
+		\item Робот ходит по координатной плоскости. На каждом шаге он может увеличить одну координату на $1$ или обе координаты на $2$ Сколько есть способов переместить Робота из точки $(0,0)$ в точку $(4,5)$?
+		
+		\textbf{Решение}
+		Назовем команды некоторыми именами:
+		$$
+		a = x+1;~b = y+1;~c = x+1,~y+1
+		$$
+		Количество вариантов наборов команд ограничено: их всего три. Рассмотрим все:
+		\begin{itemize}
+			\item $0a$, $1b$, $2c$
+			
+			Всего $3$ хода. Тогда количество вариантов:
+			$$
+			N_1 = C_3^1 = 3
+			$$
+			\item $2a$, $3b$, $1c$
+			
+			Всего $6$ ходов. Тогда количество вариантов:
+			$$
+			N_2 = C_6^1\cdot C_5^2 = 6\cdot15 = 60
+			$$
+			\item $4a$, $5b$, $0c$
+			
+			Всего $9$ ходов. Тогда количество вариантов:
+			$$
+			N_3 = C_9^4 = 126
+			$$
+			Всего вариантов
+			$$
+			N = N_1 + N_2 + N_3 = 3 + 60 + 126 = 189
+			$$
+		\end{itemize}
+		
+		\item В магазине продается 10 видов пирожных. Сколькими способами можно купить 100 пирожных (порядок покупки не важен)?
+		
+		\textbf{Решение}
+		
+		У нас есть 10 типов, нужно выбрать 100 предметов. Тогда способов:
+		$$
+		\overline{C}_n^k = \overline{C}_{10}^{100} = C_{109}^{100} = \frac{109!}{9!100!}
+		$$
+		
+		\item Какое слагаемое в разложении $(1 + 2)^n$ по формуле бинома Ньютона будет наибольшим?
+		
+		\textbf{Решение}
+		
+		Формула бинома Ньютона:
+		$$
+		(a + b)^n = \sum_{k=0}^{n} 
+		\begin{pmatrix}
+			k \\
+			n
+		\end{pmatrix}
+		a^kb^{n-k}
+		$$
+		В нашем случае формула перепишется так:
+		$$
+		(1 + 2)^n = \sum_{k=0}^{n} 
+		\begin{pmatrix}
+			k \\
+			n
+		\end{pmatrix}
+		2^k
+		$$
+		Сравним два соседних элемента разложения:
+		$$
+		\frac{C_{n}^{k}\cdot2^{k}}{C_{n}^{k+1}\cdot2^{k+1}} > 1
+		$$
+		Пусть $k$-ый элемент больше $k+1$-го и $k-1$-го. Распишем:
+		
+		\begin{minipage}{0.5\linewidth}
+			$$
+			\frac{\dfrac{n!}{k!(n-k)!}\cdot2^k}{\dfrac{n!}{(k+1)!(n-k-1)!}\cdot2^{k+1}} > 1
+			$$
+			$$
+			\frac{(k+1)!(n-k-1)!}{2k!(n-k)!} > 1
+			$$
+			$$
+			\frac{k+1}{2(n-k)} > 1~\Rightarrow~ k + 1 > 2n - 2k 
+			$$
+			$$
+			k > \frac{2n-1}{3}
+			$$
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.5\linewidth}
+			$$
+			\frac{\dfrac{n!}{k!(n-k)!}\cdot2^k}{\dfrac{n!}{(k-1)!(n-k+1)!}\cdot2^{k-1}} > 1
+			$$
+			$$
+			\frac{2(k-1)!(n-k+1)!}{k!(n-k)!} > 1
+			$$
+			$$
+			2\frac{n-k+1}{2k} > 1~\Rightarrow~ 2n - 2k + 2 > k 
+			$$
+			$$
+			k < \frac{2n+2}{3}
+			$$
+		\end{minipage}
+	
+		Таким условиям соотвествует $k = \left[\dfrac{2n+2}{3}\right]$.
+		
+		\item Найдите число слов длины $n$ над алфавитом ${0,1}$, в которых нет двух единиц подряд. 
+		
+		\textbf{Решение}
+		
+		Выберем число $k$. Мы хотим найти количество слов длины $k$. Слово длины $k$ может заканчивваться на $1$ или $0$. Количество слов, заканчивающихся на $0$ равно сумме количеств слов, длины $k-1$, заканчивающихся на $0$ и на $1$, так как $0$ мы можем поставить и после единицы, и после нуля. Количество слов длины $k$, заканчивающихся на $1$ равно сумме количеств слов, длины $k-1$, заканчивающихся на $0$, так как после единицы можно поставить только $0$.
+		
+		Количество слов длины $1$ равно $2$ (либо ноль, либо единица). Докажем по индукции. Пусть количество слов длины $k$, заканчивающихся на $0$ --- $F_{k+1}$ ($F_n$ --- число Фибоначчи под номером $n$). Количество слов длины $k$, заканчивающихся на $1$ --- $F_{k}$. Рассмотрим слова длины $k+1$: заканчивающихся на $0$ --- $F_k + F_{k+1} = F_{k+2}$, заканчивающихся на $1$ --- $F_{k+1}$. По индукции доказано, что это так. 
+		
+		Тогда для длины $n$: $F_n + F_{n + 1} = F_{n+2}$ --- число Фибоначчи под номером $n+2$.
+		
+		\item Дать комбинаторные доказательства тождеств
+		\begin{enumerate}[label=\textbf{\alph*)}]
+			\item 
+			$
+			\begin{pmatrix}
+				n \\
+				m
+			\end{pmatrix}
+			\begin{pmatrix}
+				m \\
+				k
+			\end{pmatrix} =
+			\begin{pmatrix}
+				n \\
+				k
+			\end{pmatrix}
+			\begin{pmatrix}
+				n - k \\
+				m - k
+			\end{pmatrix}
+			$
+			
+			\textbf{Решение}
+			Выражение слева можно интерпретировать как выбор $m$ шаров из $n$ шаров, а потом еще $k$ шаров из $m$ шаров. То есть мы из взяли $n$ шаров, из них выбрали $k$, а потом из оставшихся $n-k$ шаров выбрали $m-k$, так как среди $m$ шаров в первом случае содержалось $k$ шаров.
+		\end{enumerate}
+	
+		\item Какок из чисел больше: 
+		$
+		\begin{pmatrix}
+			F_{1000} \\
+			F_{998} + 1
+		\end{pmatrix}
+		$
+		или
+		$
+		\begin{pmatrix}
+			F_{1000} \\
+			F_{999} + 1
+		\end{pmatrix}
+		$
+		
+		\textbf{Решение}
+		
+		Число $F_{999}$ точно больше $F_{998}$. Соотвественно и $F_{999} + 1 > F_{998} + 1$. Выбираем мы каждый раз из одинакового числа $F_{1000}$. Очевидно, выбрать большее количество элементов из того же числа меньше вариантов. Следовательно,
+		$$
+		\begin{pmatrix}
+			F_{1000} \\
+			F_{998} + 1
+		\end{pmatrix}
+		>
+		\begin{pmatrix}
+			F_{1000} \\
+			F_{999} + 1
+		\end{pmatrix}
+		$$
+		\item Приведите комбинаторное доказательство равенства:
+		$$
+		\sum_{0\leq k \leq(n+1)/2}^{}
+		\begin{pmatrix}
+			n - k + 1 \\
+			k
+		\end{pmatrix} =
+		F_{n+2}
+		$$
+		
+		\textbf{Решение}
+		
+		\item Сколько способов разместить $20$ различных книг на $5$ полках, если каждая полка может	вместить все $20$ книг? Размещения, отличающиеся порядком книг на полках, считаются различными.
+		
+		\textbf{Решение}
+		
+		Задача \textbf{4.4}.
+		
+		\item Студсовет из $8$ человек выбирает из своего состава председателя путем тайного голосования. Каждый может отдать один голос за любого члена студсовета. Результат голосования --- число голосов, отданных за каждого кандидата. Сколько существует различных результатов голосования?
+		
+		\textbf{Решение}
+		
+		Всего у нас $8$ человек, каждый из которых может получить от $0$ до $7$ голосов (то есть $8$ вариантов), причем голоса от каждого человека считаются разными. Тогда число вариантов
+		$$
+		\overline{C}_n^k = \overline{C}_8^8 = C_{15}^8 = 6435
+		$$
+		
+		\item Сколькими способами можно переставить буквы в слове «ОБОРОНОСПОСОБНОСТЬ», так чтобы две буквы «О» не стояли рядом?
+		
+		\textbf{Решение}
+		
+		Всего в слове $18$ букв. Букв «О» --- $7$ штук. Также буквы «Б» и «Н» повторюется по $2$ раза, буква «С» $3$ раза. Тогда расставить все буквы, кроме «О», существует
+		$$
+		P(2,2,3) = \frac{11!}{2!2!3!} 
+		$$
+		способов. Буквы «О» можно поставить перед и после всех остальных, а также между ними, то есть на $12$ мест. Способов это сделать существует
+		$$
+		C_n^k = C_{12}^7
+		$$
+		Тогда итоговый ответ
+		$$
+		P(2,2,3)\cdot C_{12}^7 = \frac{11!12!}{2!2!3!7!}
+		$$
+	\end{enumerate}
+	\newpage
+	\section{Комбинаторика \RomanNumeralCaps{2}}
+	\begin{enumerate}[label={\textbf{\arabic{section}.\arabic*}}]
+		\item Частичная функция $h$ из множества ${1,2,\dots,8}$ в множестве ${a,b,\dots,g}$ определена следующим образом:
+		$$
+		h:1\mapsto b,~2\mapsto c,~3\mapsto b,~4\mapsto e,~5\mapsto b,~6\mapsto e,~8\mapsto f
+		$$
+		Найдите 
+		\begin{enumerate}[label=\textbf{\alph*)}]
+			\item $Dom(h)$
+			\item $Range(h)$; $h({0,1,2,3,4})$
+			\item $h^{-1}({a,b,c})$
+			\item $h^{-1}(h({0,1,2,6,7,8}))$
+			\item $h(h^{-1}({a,b,c,d,e}))$
+		\end{enumerate}
+	
+		\textbf{Решение}
+		\begin{enumerate}[label=\textbf{\alph*)}]
+			\item $Dom(h) = {1,2,3,4,5,6,8}$
+			\item $Range(h) = {b,c,e,f}$; $h({0,1,2,3,4}) = {b,c,e}$
+			\item $h^{-1}({a,b,c}) = {1,2,3,5}$
+			\item $h^{-1}(h({0,1,2,6,7,8})) = h^{-1}(b,c,e,f) = {1,2,3,4,5,6,8}$
+			\item $h(h^{-1}({a,b,c,d,e})) = h({1,2,3,4,5,6}) = {b,c,e}$
+		\end{enumerate}
+	
+		\item Функция $f$ из множества целых чисел в множество целых чисел сопоставляет числу наименьшее простое число, которое больше $x^2$. Докажите, что если множество целых чисел $X$ конечное, то и полный прообраз этого множества$ f^{-1}(X)$ конечен.
+		
+		\textbf{Решение}
+		
+		$X$ --- множество элементов $x^2$. По условию оно конечно. Значит и множество элементов $x$ конечно. А $f^{-1}(X) = x$, следовательно, множество $f^{-1}(X)$ конечно.
+		
+		\item Пусть $f$ --- функция из множества $X$ в множество $Y$, при этом $A\subseteq X$. Какой знак сравнения можно поставить вместо «?», чтобы утверждение
+		$$
+		f^{-1}(f(A))?A
+		$$
+		стало верным?
+		
+		\textbf{Решение}
+		
+		Можно найти такие элементы $a_1$ и $a_2$, что $a_1\subset A$, $a_2\subset A$ и $a_1\subset X$, $a_2\not\subset X$. Следовательно, $f^{-1}(f(A))\not\subseteq A$.
+		
+		Можно найти элемент $a_1$ такой, что $a_1$ не определен на $f$, а значит $\not\exists f(a_1)$. Следовательно, $f^{-1}(f(A))\not\supseteq A$.
+		
+		Выше доказано, что $f^{-1}(f(A))\not\subseteq A$ и $f^{-1}(f(A))\not\supseteq A$, а значит $f^{-1}(f(A))\neq A$
+		
+		То есть \textbf{никакой} знак нельзя поставить для становления выражения верным.
+		
+		\item Пусть $f$ --- функция из множества $A\cup B$ в множество $Y$. Какой знак сравнения можно поставить вместо «?», чтобы утверждение
+		$$
+		f(A\setminus B)?f(A\setminus f(B))
+		$$
+		стало верным?
+		
+		\textbf{Решение}
+		
+		Ответ знак $\supseteq$, решение не успела
+		
+		\item Пусть $f$ --- функция из множества $X$ в множество $Y$, при этом $A\cup B\subseteq X$. Какой знак сравнения можно поставить вместо «?», чтобы утверждение
+		$$
+		f^{-1}(A\setminus B)?f^{-1}(A)\setminus f^{-1}(B)
+		$$
+		стало верным?
+		
+		\textbf{Решение}
+		
+		Из условия следует, что нам нужно найти функции вида $f(f(x)) = x$. Тогда возможно два варианта: $f(x) = x$ и $f(x) = y$, $f(y) = x$. Далее рассматриваем случаи:
+		\begin{itemize}
+			\item Один элемент относится к первому варианту, остальные образуют пары. Тогда количество отображений:
+			$$
+			C_7^1\cdot C_5^1\cdot C_3^1\cdot C_1^1 = 105 
+			$$
+			\item Три элемента относятся к первому варианту. Количество отображений:
+			$$
+			C_7^3\cdot C_3^1\cdot C_1^1 = 105 
+			$$
+			\item Пять элементов относятся к первому варианту. Количество отображений:
+			$$
+			C_7^5\cdot C_1^1 = 21
+			$$
+			\item Семь элементов относятся к первому варианту. Количество отбражений:
+			$$
+			C_7^7 = 1
+			$$
+			Тогда всего отображений: $105 + 105 + 21 + 1 =$ \textbf{232}.
+		\end{itemize}
+	
+	\item Задана функция $f(x) = x^2$, из $A$ в $B$. При каком выборе множеств $A$, $B$ данная функция будет 
+	\begin{enumerate}[label=\textbf{\alph*)}]
+		\item отображением?
+		\item сюръекцией?
+		\item иметь обратную функцию?
+	\end{enumerate}
+	Найти вид обратной функции для этих множеств $A$, $B$.
+	
+	\textbf{Решение}
+	
+	\begin{enumerate}[label=\textbf{\alph*)}]
+		\item $A\in \mathbb{R}$, $B\in[0,+\infty]$
+		\item $A\in \mathbb{R}$, $B\in[0,+\infty]$
+		\item $A\in[0,+\infty]$, $B\in[0,+\infty]$
+	\end{enumerate}
+	Вид обратной функции: $f^{-1}(x) = \sqrt{x}$.
+	
+	\item  Рассмотрим функцию $f(x) = x^2 + 3x + 2$, $f(x): \mathbb{R}\mapsto\mathbb{R}$. Найти:
+	\begin{enumerate}[label=\textbf{\alph*)}]
+		\item $dom(f)$
+		\item $range(f)$
+		\item $f([-1;1])$
+		\item $f([-4;7])$
+		\item $h(h^{-1}({a,b,c,d,e})) = h({1,2,3,4,5,6}) = {b,c,e}$
+	\end{enumerate}
+	
+	\textbf{Решение}
+	
+	\begin{enumerate}[label=\textbf{\alph*)}]
+		\item $dom(f) = \mathbb{R}$
+		\item Найдем минимальное значение $f$: 
+		$$
+		x_{min} = \frac{-b}{2a} = \frac{-3}{2\cdot1} = -\frac{3}{2}~\Rightarrow~f_{min} = \left(\frac{-3}{2}\right)^2 - 3\cdot\frac{3}{2} + 2 = -\frac{1}{4}
+		$$
+		$range(f) = \left[-\frac{1}{4}; +\infty\right)$
+		\item $f(-1) = (-1)^2 - 3\cdot1 + 2 = 0$, $f(1) = 1^2 + 3\cdot1 + 2 = 6$.
+		
+		$f([-1;1]) = [0; 6]$
+		\item $f(-1) = (-4)^2 - 3\cdot4 + 2 = 6$, $f(1) = 7^2 + 3\cdot7 + 2 = 72$. Но между $x=-4$ и $x=7$ лежит минимум функции, значит
+		
+		$f([-4;7]) = \left[-\dfrac{1}{4}; 71\right]$
+		\item Найдем корни уравнения при $f=-1$ и $f=1$. Для $f=-1$ корней нет, для $f=1$
+		$$
+		x_1 = \frac{-3-\sqrt{5}}{2},~x_2 = \frac{-3+\sqrt{5}}{2}
+		$$
+		
+		$f^{-1}([-1;1]) = \left[\dfrac{-3-\sqrt{5}}{2};\dfrac{-3+\sqrt{5}}{2}\right]$
+	\end{enumerate}
+	\end{enumerate}
+\end{document}

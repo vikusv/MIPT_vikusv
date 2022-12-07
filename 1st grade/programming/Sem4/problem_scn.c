@@ -10,15 +10,17 @@ void swap(char *v1, char *v2);
 
 int main(void) 
 {
-    int res = 0, len1 = 0, len = 0, num;
-    char *str;
-
-    res = scanf("%c", str);
-
-    printf("%d", num);
-    free(str);
+    char str;
+    int res = 0, sum = 0;
+    res = scanf("%c", &str);
+    assert(res);
+    while (res == 1 && str != '\0') 
+    {
+        sum += str;
+        res = scanf("%c", &str);
+        assert(res);
+    }
+    printf("%d\n", sum);
     
     return 0;
 }
-
-

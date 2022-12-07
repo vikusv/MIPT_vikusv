@@ -16,12 +16,13 @@ int main(void)
     str = read_word(&len2);
     
     start = str;
-    while ((str + len2 - 1) - start - len1 >= 0)
+    while (start)
     {
         start = strstr(start, word);
         if (start == NULL)
             break;
-        str_reverse(start, len1);
+        str_reverse(start, len1 - 1);
+        start = start + len1;
     }
     for (int i = 0; i < len2; i++)
         printf("%c", str[i]);
@@ -35,7 +36,7 @@ int main(void)
 void str_reverse(char * start, int len)
 {
     for (int i = 0; i <= len / 2; i++)
-        swap(start + i, start + len - 1 - i);
+        swap(start + i, start + len - i);
 }
 
 char *read_word(int *len) 
@@ -51,7 +52,8 @@ char *read_word(int *len)
 
     res = scanf("%*c");
 
-    for (i = 0; i < *len; ++i) {
+    for (i = 0; i < *len; ++i) 
+    {
         res = scanf("%c", text + i);
         assert(res);
     }

@@ -3,6 +3,8 @@
 #include <assert.h>
 
 int coin_exchange(int sum, int qt, int * nominal_arr);
+int minimum(int qt, int * nominal_arr, int * res_arr, int i);
+int comp (int * a, int * b);
 
 int main(void)
 {
@@ -19,6 +21,7 @@ int main(void)
         res = scanf("%d", &nominal_arr[i]);
         assert(res == 1);
     }
+    qsort(nominal_arr, qt, sizeof (int), (int(*) (const void *, const void *)) comp);
 
     min_qt = coin_exchange(sum, qt, nominal_arr);
 
@@ -31,23 +34,54 @@ int main(void)
 
 int coin_exchange(int sum, int qt, int * nominal_arr) 
 {
-    int i, j, x, y;
-    int lookupTable[sum + 1][qt];
+    int res = 0, i = 0, min_elem = 0;
+    int * res_arr = calloc(sum + 1, sizeof(int));
 
-    if (sum <= 0 || qt <= 0)
-        return 0;
+    res_arr[i] = 0;
+    i++;
     
-    for (i = 0; i < qt; i++)
-        lookupTable[0][i] = 1;
-
-    for (i = 1; i < sum + 1; i++) 
+    while (i < nominal_arr[0])
     {
-        for (j = 0; j < qt; j++) 
+        res_arr[i] = -1;
+        i++;
+    }
+
+    for (; i <= sum; i++)
+    {
+        min_elem = minimum(qt, nominal_arr, res_arr, i);
+        if (min_elem == -1)
+            res_arr[i] = -1;
+        else
+            res_arr[i] = 1 + min_elem;
+    }
+
+    res = res_arr[sum];
+    free(res_arr);
+
+    return res;
+}
+
+int minimum(int qt, int * nominal_arr, int * res_arr, int i)
+{
+    int min_elem = res_arr[i - nominal_arr[0]];
+    
+    for (int j = 0; j < qt && nominal_arr[j] <= i; j++)
+    {
+        if (res_arr[i - nominal_arr[j]] != -1)
         {
-        x = (i - nominal_arr[j] >= 0) ? lookupTable[i - nominal_arr[j]][j] : 0;
-        y = (j >= 1) ? lookupTable[i][j - 1] : 0;
-        lookupTable[i][j] = x + y;
+            if (min_elem == -1)
+                min_elem = res_arr[i - nominal_arr[j]];
+            else 
+            {
+                if (res_arr[i - nominal_arr[j]] <= min_elem)
+                    min_elem = res_arr[i - nominal_arr[j]];
+            }
         }
     }
-    return lookupTable[sum][qt - 1];
+    return min_elem;
+}
+
+int comp (int * a, int * b)
+{
+    return *a - *b;
 }

@@ -1,0 +1,2699 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.29)  27 FEB 2023 07:18
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex"
+(/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/baseset.sty (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count178
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2enc.def
+File: ot2enc.def 2001/08/11 v3.3a Cyrillic encoding definition file
+Now handling font encoding OT2 ...
+... processing UTF-8 mapping file for font encoding OT2
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ot2enc.dfu
+File: ot2enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0462 (decimal 1122)
+   defining Unicode char U+0463 (decimal 1123)
+   defining Unicode char U+0472 (decimal 1138)
+   defining Unicode char U+0473 (decimal 1139)
+   defining Unicode char U+0474 (decimal 1140)
+   defining Unicode char U+0475 (decimal 1141)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2116 (decimal 8470)
+)) (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2019/07/09 v0.13.3 LGR Greek font encoding definitions
+Now handling font encoding LGR ...
+... processing UTF-8 mapping file for font encoding LGR
+ (/usr/share/texlive/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0259 (decimal 601)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+0374 (decimal 884)
+   defining Unicode char U+0375 (decimal 885)
+   defining Unicode char U+037A (decimal 890)
+   defining Unicode char U+037E (decimal 894)
+   defining Unicode char U+0384 (decimal 900)
+   defining Unicode char U+0385 (decimal 901)
+   defining Unicode char U+0386 (decimal 902)
+   defining Unicode char U+0387 (decimal 903)
+   defining Unicode char U+0388 (decimal 904)
+   defining Unicode char U+0389 (decimal 905)
+   defining Unicode char U+038A (decimal 906)
+   defining Unicode char U+038C (decimal 908)
+   defining Unicode char U+038E (decimal 910)
+   defining Unicode char U+038F (decimal 911)
+   defining Unicode char U+0390 (decimal 912)
+   defining Unicode char U+0391 (decimal 913)
+   defining Unicode char U+0392 (decimal 914)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0395 (decimal 917)
+   defining Unicode char U+0396 (decimal 918)
+   defining Unicode char U+0397 (decimal 919)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+0399 (decimal 921)
+   defining Unicode char U+039A (decimal 922)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039C (decimal 924)
+   defining Unicode char U+039D (decimal 925)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+039F (decimal 927)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A1 (decimal 929)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A4 (decimal 932)
+   defining Unicode char U+03A5 (decimal 933)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A7 (decimal 935)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03AA (decimal 938)
+   defining Unicode char U+03AB (decimal 939)
+   defining Unicode char U+03AC (decimal 940)
+   defining Unicode char U+03AD (decimal 941)
+   defining Unicode char U+03AE (decimal 942)
+   defining Unicode char U+03AF (decimal 943)
+   defining Unicode char U+03B0 (decimal 944)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03BF (decimal 959)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+03CA (decimal 970)
+   defining Unicode char U+03CB (decimal 971)
+   defining Unicode char U+03CC (decimal 972)
+   defining Unicode char U+03CD (decimal 973)
+   defining Unicode char U+03CE (decimal 974)
+   defining Unicode char U+03D0 (decimal 976)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03D8 (decimal 984)
+   defining Unicode char U+03D9 (decimal 985)
+   defining Unicode char U+03DA (decimal 986)
+   defining Unicode char U+03DB (decimal 987)
+   defining Unicode char U+03DC (decimal 988)
+   defining Unicode char U+03DD (decimal 989)
+   defining Unicode char U+03DF (decimal 991)
+   defining Unicode char U+03E0 (decimal 992)
+   defining Unicode char U+03E1 (decimal 993)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F4 (decimal 1012)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+1F00 (decimal 7936)
+   defining Unicode char U+1F01 (decimal 7937)
+   defining Unicode char U+1F02 (decimal 7938)
+   defining Unicode char U+1F03 (decimal 7939)
+   defining Unicode char U+1F04 (decimal 7940)
+   defining Unicode char U+1F05 (decimal 7941)
+   defining Unicode char U+1F06 (decimal 7942)
+   defining Unicode char U+1F07 (decimal 7943)
+   defining Unicode char U+1F08 (decimal 7944)
+   defining Unicode char U+1F09 (decimal 7945)
+   defining Unicode char U+1F0A (decimal 7946)
+   defining Unicode char U+1F0B (decimal 7947)
+   defining Unicode char U+1F0C (decimal 7948)
+   defining Unicode char U+1F0D (decimal 7949)
+   defining Unicode char U+1F0E (decimal 7950)
+   defining Unicode char U+1F0F (decimal 7951)
+   defining Unicode char U+1F10 (decimal 7952)
+   defining Unicode char U+1F11 (decimal 7953)
+   defining Unicode char U+1F12 (decimal 7954)
+   defining Unicode char U+1F13 (decimal 7955)
+   defining Unicode char U+1F14 (decimal 7956)
+   defining Unicode char U+1F15 (decimal 7957)
+   defining Unicode char U+1F18 (decimal 7960)
+   defining Unicode char U+1F19 (decimal 7961)
+   defining Unicode char U+1F1A (decimal 7962)
+   defining Unicode char U+1F1B (decimal 7963)
+   defining Unicode char U+1F1C (decimal 7964)
+   defining Unicode char U+1F1D (decimal 7965)
+   defining Unicode char U+1F20 (decimal 7968)
+   defining Unicode char U+1F21 (decimal 7969)
+   defining Unicode char U+1F22 (decimal 7970)
+   defining Unicode char U+1F23 (decimal 7971)
+   defining Unicode char U+1F24 (decimal 7972)
+   defining Unicode char U+1F25 (decimal 7973)
+   defining Unicode char U+1F26 (decimal 7974)
+   defining Unicode char U+1F27 (decimal 7975)
+   defining Unicode char U+1F28 (decimal 7976)
+   defining Unicode char U+1F29 (decimal 7977)
+   defining Unicode char U+1F2A (decimal 7978)
+   defining Unicode char U+1F2B (decimal 7979)
+   defining Unicode char U+1F2C (decimal 7980)
+   defining Unicode char U+1F2D (decimal 7981)
+   defining Unicode char U+1F2E (decimal 7982)
+   defining Unicode char U+1F2F (decimal 7983)
+   defining Unicode char U+1F30 (decimal 7984)
+   defining Unicode char U+1F31 (decimal 7985)
+   defining Unicode char U+1F32 (decimal 7986)
+   defining Unicode char U+1F33 (decimal 7987)
+   defining Unicode char U+1F34 (decimal 7988)
+   defining Unicode char U+1F35 (decimal 7989)
+   defining Unicode char U+1F36 (decimal 7990)
+   defining Unicode char U+1F37 (decimal 7991)
+   defining Unicode char U+1F38 (decimal 7992)
+   defining Unicode char U+1F39 (decimal 7993)
+   defining Unicode char U+1F3A (decimal 7994)
+   defining Unicode char U+1F3B (decimal 7995)
+   defining Unicode char U+1F3C (decimal 7996)
+   defining Unicode char U+1F3D (decimal 7997)
+   defining Unicode char U+1F3E (decimal 7998)
+   defining Unicode char U+1F3F (decimal 7999)
+   defining Unicode char U+1F40 (decimal 8000)
+   defining Unicode char U+1F41 (decimal 8001)
+   defining Unicode char U+1F42 (decimal 8002)
+   defining Unicode char U+1F43 (decimal 8003)
+   defining Unicode char U+1F44 (decimal 8004)
+   defining Unicode char U+1F45 (decimal 8005)
+   defining Unicode char U+1F48 (decimal 8008)
+   defining Unicode char U+1F49 (decimal 8009)
+   defining Unicode char U+1F4A (decimal 8010)
+   defining Unicode char U+1F4B (decimal 8011)
+   defining Unicode char U+1F4C (decimal 8012)
+   defining Unicode char U+1F4D (decimal 8013)
+   defining Unicode char U+1F50 (decimal 8016)
+   defining Unicode char U+1F51 (decimal 8017)
+   defining Unicode char U+1F52 (decimal 8018)
+   defining Unicode char U+1F53 (decimal 8019)
+   defining Unicode char U+1F54 (decimal 8020)
+   defining Unicode char U+1F55 (decimal 8021)
+   defining Unicode char U+1F56 (decimal 8022)
+   defining Unicode char U+1F57 (decimal 8023)
+   defining Unicode char U+1F59 (decimal 8025)
+   defining Unicode char U+1F5B (decimal 8027)
+   defining Unicode char U+1F5D (decimal 8029)
+   defining Unicode char U+1F5F (decimal 8031)
+   defining Unicode char U+1F60 (decimal 8032)
+   defining Unicode char U+1F61 (decimal 8033)
+   defining Unicode char U+1F62 (decimal 8034)
+   defining Unicode char U+1F63 (decimal 8035)
+   defining Unicode char U+1F64 (decimal 8036)
+   defining Unicode char U+1F65 (decimal 8037)
+   defining Unicode char U+1F66 (decimal 8038)
+   defining Unicode char U+1F67 (decimal 8039)
+   defining Unicode char U+1F68 (decimal 8040)
+   defining Unicode char U+1F69 (decimal 8041)
+   defining Unicode char U+1F6A (decimal 8042)
+   defining Unicode char U+1F6B (decimal 8043)
+   defining Unicode char U+1F6C (decimal 8044)
+   defining Unicode char U+1F6D (decimal 8045)
+   defining Unicode char U+1F6E (decimal 8046)
+   defining Unicode char U+1F6F (decimal 8047)
+   defining Unicode char U+1F70 (decimal 8048)
+   defining Unicode char U+1F71 (decimal 8049)
+   defining Unicode char U+1F72 (decimal 8050)
+   defining Unicode char U+1F73 (decimal 8051)
+   defining Unicode char U+1F74 (decimal 8052)
+   defining Unicode char U+1F75 (decimal 8053)
+   defining Unicode char U+1F76 (decimal 8054)
+   defining Unicode char U+1F77 (decimal 8055)
+   defining Unicode char U+1F78 (decimal 8056)
+   defining Unicode char U+1F79 (decimal 8057)
+   defining Unicode char U+1F7A (decimal 8058)
+   defining Unicode char U+1F7B (decimal 8059)
+   defining Unicode char U+1F7C (decimal 8060)
+   defining Unicode char U+1F7D (decimal 8061)
+   defining Unicode char U+1F80 (decimal 8064)
+   defining Unicode char U+1F81 (decimal 8065)
+   defining Unicode char U+1F82 (decimal 8066)
+   defining Unicode char U+1F83 (decimal 8067)
+   defining Unicode char U+1F84 (decimal 8068)
+   defining Unicode char U+1F85 (decimal 8069)
+   defining Unicode char U+1F86 (decimal 8070)
+   defining Unicode char U+1F87 (decimal 8071)
+   defining Unicode char U+1F88 (decimal 8072)
+   defining Unicode char U+1F89 (decimal 8073)
+   defining Unicode char U+1F8A (decimal 8074)
+   defining Unicode char U+1F8B (decimal 8075)
+   defining Unicode char U+1F8C (decimal 8076)
+   defining Unicode char U+1F8D (decimal 8077)
+   defining Unicode char U+1F8E (decimal 8078)
+   defining Unicode char U+1F8F (decimal 8079)
+   defining Unicode char U+1F90 (decimal 8080)
+   defining Unicode char U+1F91 (decimal 8081)
+   defining Unicode char U+1F92 (decimal 8082)
+   defining Unicode char U+1F93 (decimal 8083)
+   defining Unicode char U+1F94 (decimal 8084)
+   defining Unicode char U+1F95 (decimal 8085)
+   defining Unicode char U+1F96 (decimal 8086)
+   defining Unicode char U+1F97 (decimal 8087)
+   defining Unicode char U+1F98 (decimal 8088)
+   defining Unicode char U+1F99 (decimal 8089)
+   defining Unicode char U+1F9A (decimal 8090)
+   defining Unicode char U+1F9B (decimal 8091)
+   defining Unicode char U+1F9C (decimal 8092)
+   defining Unicode char U+1F9D (decimal 8093)
+   defining Unicode char U+1F9E (decimal 8094)
+   defining Unicode char U+1F9F (decimal 8095)
+   defining Unicode char U+1FA0 (decimal 8096)
+   defining Unicode char U+1FA1 (decimal 8097)
+   defining Unicode char U+1FA2 (decimal 8098)
+   defining Unicode char U+1FA3 (decimal 8099)
+   defining Unicode char U+1FA4 (decimal 8100)
+   defining Unicode char U+1FA5 (decimal 8101)
+   defining Unicode char U+1FA6 (decimal 8102)
+   defining Unicode char U+1FA7 (decimal 8103)
+   defining Unicode char U+1FA8 (decimal 8104)
+   defining Unicode char U+1FA9 (decimal 8105)
+   defining Unicode char U+1FAA (decimal 8106)
+   defining Unicode char U+1FAB (decimal 8107)
+   defining Unicode char U+1FAC (decimal 8108)
+   defining Unicode char U+1FAD (decimal 8109)
+   defining Unicode char U+1FAE (decimal 8110)
+   defining Unicode char U+1FAF (decimal 8111)
+   defining Unicode char U+1FB0 (decimal 8112)
+   defining Unicode char U+1FB1 (decimal 8113)
+   defining Unicode char U+1FB2 (decimal 8114)
+   defining Unicode char U+1FB3 (decimal 8115)
+   defining Unicode char U+1FB4 (decimal 8116)
+   defining Unicode char U+1FB6 (decimal 8118)
+   defining Unicode char U+1FB7 (decimal 8119)
+   defining Unicode char U+1FB8 (decimal 8120)
+   defining Unicode char U+1FB9 (decimal 8121)
+   defining Unicode char U+1FBA (decimal 8122)
+   defining Unicode char U+1FBB (decimal 8123)
+   defining Unicode char U+1FBC (decimal 8124)
+   defining Unicode char U+1FBD (decimal 8125)
+   defining Unicode char U+1FBE (decimal 8126)
+   defining Unicode char U+1FBF (decimal 8127)
+   defining Unicode char U+1FC0 (decimal 8128)
+   defining Unicode char U+1FC1 (decimal 8129)
+   defining Unicode char U+1FC2 (decimal 8130)
+   defining Unicode char U+1FC3 (decimal 8131)
+   defining Unicode char U+1FC4 (decimal 8132)
+   defining Unicode char U+1FC6 (decimal 8134)
+   defining Unicode char U+1FC7 (decimal 8135)
+   defining Unicode char U+1FC8 (decimal 8136)
+   defining Unicode char U+1FC9 (decimal 8137)
+   defining Unicode char U+1FCA (decimal 8138)
+   defining Unicode char U+1FCB (decimal 8139)
+   defining Unicode char U+1FCC (decimal 8140)
+   defining Unicode char U+1FCD (decimal 8141)
+   defining Unicode char U+1FCE (decimal 8142)
+   defining Unicode char U+1FCF (decimal 8143)
+   defining Unicode char U+1FD0 (decimal 8144)
+   defining Unicode char U+1FD1 (decimal 8145)
+   defining Unicode char U+1FD2 (decimal 8146)
+   defining Unicode char U+1FD3 (decimal 8147)
+   defining Unicode char U+1FD6 (decimal 8150)
+   defining Unicode char U+1FD7 (decimal 8151)
+   defining Unicode char U+1FD8 (decimal 8152)
+   defining Unicode char U+1FD9 (decimal 8153)
+   defining Unicode char U+1FDA (decimal 8154)
+   defining Unicode char U+1FDB (decimal 8155)
+   defining Unicode char U+1FDD (decimal 8157)
+   defining Unicode char U+1FDE (decimal 8158)
+   defining Unicode char U+1FDF (decimal 8159)
+   defining Unicode char U+1FE0 (decimal 8160)
+   defining Unicode char U+1FE1 (decimal 8161)
+   defining Unicode char U+1FE2 (decimal 8162)
+   defining Unicode char U+1FE3 (decimal 8163)
+   defining Unicode char U+1FE4 (decimal 8164)
+   defining Unicode char U+1FE5 (decimal 8165)
+   defining Unicode char U+1FE6 (decimal 8166)
+   defining Unicode char U+1FE7 (decimal 8167)
+   defining Unicode char U+1FE8 (decimal 8168)
+   defining Unicode char U+1FE9 (decimal 8169)
+   defining Unicode char U+1FEA (decimal 8170)
+   defining Unicode char U+1FEB (decimal 8171)
+   defining Unicode char U+1FEC (decimal 8172)
+   defining Unicode char U+1FED (decimal 8173)
+   defining Unicode char U+1FEE (decimal 8174)
+   defining Unicode char U+1FEF (decimal 8175)
+   defining Unicode char U+1FF2 (decimal 8178)
+   defining Unicode char U+1FF3 (decimal 8179)
+   defining Unicode char U+1FF4 (decimal 8180)
+   defining Unicode char U+1FF6 (decimal 8182)
+   defining Unicode char U+1FF7 (decimal 8183)
+   defining Unicode char U+1FF8 (decimal 8184)
+   defining Unicode char U+1FF9 (decimal 8185)
+   defining Unicode char U+1FFA (decimal 8186)
+   defining Unicode char U+1FFB (decimal 8187)
+   defining Unicode char U+1FFC (decimal 8188)
+   defining Unicode char U+1FFD (decimal 8189)
+   defining Unicode char U+1FFE (decimal 8190)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+10144 (decimal 65860)
+   defining Unicode char U+10145 (decimal 65861)
+   defining Unicode char U+10146 (decimal 65862)
+   defining Unicode char U+10147 (decimal 65863)
+) (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2015/08/04 v0.13.4 Common Greek font encoding definitions
+)) (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count179
+\U@D=\dimen143
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count180
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language18) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language18) on input line 108.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
+)) (/usr/share/texmf/tex/latex/pscyr/pscyr.sty
+Package: pscyr 2002/07/04 v0.4d Cyrillic Type1 fonts as default
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen144
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count181
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count182
+\leftroot@=\count183
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count184
+\DOTSCASE@=\count185
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count186
+\c@MaxMatrixCols=\count187
+\dotsspace@=\muskip16
+\c@parentequation=\count188
+\dspbrk@lvl=\count189
+\tag@help=\toks19
+\row@=\count190
+\column@=\count191
+\maxfields@=\count192
+\andhelp@=\toks20
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box47
+\extrarowheight=\dimen154
+\NC@list=\toks23
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box48
+)
+\everycr=\toks24
+\minrowclearance=\skip54
+) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip55
+\L@UnitsRaiseTextstyle=\skip56
+\L@UnitsRaiseScriptstyle=\skip57
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen155
+\pgfutil@tempdimb=\dimen156
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box49
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count193
+\c@pgf@countb=\count194
+\c@pgf@countc=\count195
+\c@pgf@countd=\count196
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count197
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count198
+\pgfsyssoftpath@bigbuffer@items=\count199
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count266
+\pgfmath@box=\box50
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count267
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count268
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen188
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen192
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count269
+\pgf@shadingcount=\count270
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box54
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box55
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count271
+\pgfplotmarksize=\dimen198
+)
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count272
+\tikznumberofchildren=\count273
+\tikznumberofcurrentchild=\count274
+\tikz@fig@count=\count275
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count276
+\pgfmatrixcurrentcolumn=\count277
+\pgf@matrix@numberofcolumns=\count278
+)
+\tikz@expandcount=\count279
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks37
+\t@pgfplots@tokb=\toks38
+\t@pgfplots@tokc=\toks39
+\pgfplots@tmpa=\dimen263
+\c@pgfplots@coordindex=\count280
+\c@pgfplots@scanlineindex=\count281
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count282
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count283
+\t@pgfplotstable@a=\toks40
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count284
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen264
+\pgfdecoratedremainingdistance=\dimen265
+\pgfdecoratedinputsegmentcompleteddistance=\dimen266
+\pgfdecoratedinputsegmentremainingdistance=\dimen267
+\pgf@decorate@distancetomove=\dimen268
+\pgf@decorate@repeatstate=\count285
+\pgfdecorationsegmentamplitude=\dimen269
+\pgfdecorationsegmentlength=\dimen270
+)
+\tikz@lib@dec@box=\box60
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count286
+\pgfplots@xmin@reg=\dimen271
+\pgfplots@xmax@reg=\dimen272
+\pgfplots@ymin@reg=\dimen273
+\pgfplots@ymax@reg=\dimen274
+\pgfplots@zmin@reg=\dimen275
+\pgfplots@zmax@reg=\dimen276
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count287
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfpu.code.tex) (/usr/share/texlive/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen277
+))) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+2020/01/24 3.02c tkz-euclide.sty
+Package: tkz-euclide 2020/01/24 3.02c for euclidan geometry 
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-base.sty
+2020/01/24 3.02c tkz-base.sty
+Package: tkz-base 2020/01/24 3.02c tkz-base
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen278
+\pgfarrowlength=\dimen279
+\pgfarrowwidth=\dimen280
+\pgfarrowlinewidth=\dimen281
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.shapes.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.shapes.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box61
+)
+\tikz@lib@dec@te@box=\box62
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the decoration libraries instead of the snakes library on input line 14.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/numprint/numprint.sty
+Package: numprint 2012/08/20 v1.39 Print numbers (HH)
+\c@nprt@mantissa@digitsbefore=\count288
+\c@nprt@mantissa@digitsafter=\count289
+\c@nprt@exponent@digitsbefore=\count290
+\c@nprt@exponent@digitsafter=\count291
+\nprt@digitwidth=\skip58
+\nprt@sepwidth=\skip59
+\nprt@decimalwidth=\skip60
+\nprt@blockwidth=\skip61
+\nprt@digittoks=\toks41
+\nprt@pretoks=\toks42
+\nprt@posttoks=\toks43
+\nprt@thisdigit=\count292
+\nprt@curpos=\count293
+\nprt@rndpos=\count294
+\c@nprt@digitsfirstblock=\count295
+\c@nprt@blockcnt=\count296
+\c@nprt@cntprint=\count297
+ No configuration file `numprint.cfg' found.) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count298
+\l__pdf_internal_box=\box63
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count299
+\g__xparse_grabber_int=\count300
+\l__xparse_m_args_int=\count301
+\l__xparse_v_nesting_int=\count302
+)
+Package: xfp 2020-02-14 L3 Floating point unit
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count303
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count304
+\FP@xia=\count305
+\FP@xib=\count306
+\FP@xfa=\count307
+\FP@xfb=\count308
+\FP@rega=\count309
+\FP@regb=\count310
+\FP@regs=\count311
+\FP@times=\count312
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count313
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+\tkzRadius=\dimen282
+\tkzLength=\dimen283
+\tkz@radi=\dimen284
+\tkz@ax=\dimen285
+\tkz@ay=\dimen286
+\tkz@bx=\dimen287
+\tkz@by=\dimen288
+\tkz@cx=\dimen289
+\tkz@cy=\dimen290
+\tkz@dx=\dimen291
+\tkz@dy=\dimen292
+\tkz@tax=\dimen293
+\tkz@tay=\dimen294
+\tkz@tbx=\dimen295
+\tkz@tby=\dimen296
+\tkz@tcx=\dimen297
+\tkz@tcy=\dimen298
+\tkz@tdx=\dimen299
+\tkz@tdy=\dimen300
+\tkz@cntmk=\count314
+
+Local configuration file tkz-base.cfg found and used
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-base.cfg
+2020/02/04 3.02c tkz-base.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-modules.tex
+2020/01/24 3.02c tkz-tools-utilities.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-lib-marks.tex
+2020/01/24 3.02c tkz-lib-symbols.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-base.tex
+2020/01/24 3.02c tkz-tools-base.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-utilities.tex
+2020/01/24 3.02c tkz-tools-utilities.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-math.tex
+2020/01/24 3.02c tkz-tools-math.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-text.tex
+2020/01/24 3.02c tkz-tools-text.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-BB.tex
+2020/01/24 3.02c tkz-obj-BB.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-arith.tex
+2020/01/24 3.02c tkz-tools-arith.tex
+File: tkz-tool-arith.tex tkz-tool-arith 3.02 c
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-print.tex
+2020/01/24 3.02c tkz-tools-print.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-tools-misc.tex
+2020/01/24 3.02c tkz-tools-misc.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-axes.tex
+2020/01/24 3.02c tkz-obj-axes.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-grids.tex
+2020/01/24 3.02c tkz-obj-grids.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-marks.tex
+2020/01/24 3.02c tkz-obj-marks.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-points.tex
+2020/01/24 3.02c tkz-obj-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tkz-obj-rep.tex
+2020/01/24 3.02c tkz-obj-rep.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-intersections.tex
+2020/01/24 3.02c tkz-tools-intersections.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-angles.tex
+2020/01/24 3.02c tkz-tools-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-angles.tex
+2020/01/24 3.02c tkz-tool-eu-angles.tex
+\tkz@arcsize=\dimen301
+\tkz@fillsize=\dimen302
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-arcs.tex
+2020/01/24 3.02c tkz-obj-eu-arcs.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-compass.tex
+2020/01/24 3.02c tkz-obj-eu-compass.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
+2020/01/24 3.02c tkz-obj-eu-circles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-circles.tex
+2020/01/24 3.02c tkz-obj-eu-draw-circles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+2020/01/24 3.02c tkz-obj-eu-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-lines.tex
+2020/01/24 3.02c tkz-obj-eu-draw-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2020/01/24 3.02c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
+2020/01/24 3.02c tkz-tools-eu-points-by.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
+2020/01/24 3.02c tkz-obj-eu-points-rnd.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
+2020/01/24 3.02c tkz-obj-eu-points-with.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-polygons.tex
+2020/01/24 3.02c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
+2020/01/24 3.02c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-protractor.tex
+2020/01/24 3.02c tkz-obj-eu-protractor.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-sectors.tex
+2020/01/24 3.02c tkz-obj-eu-sectors.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-show.tex
+2020/01/24 3.02c tkz-obj-eu-show.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
+2020/01/24 3.02c tkz-obj-eu-triangles.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen303
+\WF@size=\dimen304
+\c@WF@wrappedlines=\count315
+\WF@box=\box64
+\WF@everypar=\toks44
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)) (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ntxtlf/m/n on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ntxtlf/m/n on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ntxtlf/m/n --> OT1/ntxtlf/b/n on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count316
+\multirow@dima=\skip63
+\bigstrutjot=\dimen305
+) (/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.aux)
+\openout1 = `Talashkevich.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
+File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Trying to load font information for T1+faq on input line 19.
+ (/usr/share/texmf/tex/latex/pscyr/t1faq.fd
+File: t1faq.fd 2004/03/22 Fontinst v1.914 font definitions for T1/faq.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for T2A+faq on input line 19.
+(/usr/share/texmf/tex/latex/pscyr/t2afaq.fd
+File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count317
+\scratchdimen=\dimen306
+\scratchbox=\box65
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen307
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks46
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.16} (current compat level: 1.13).
+
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 21.
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T2A/faq/b/n' in size <17.28> not available
+(Font)              Font shape `T2A/faq/bx/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `T2A/faq/b/n' in size <14.4> not available
+(Font)              Font shape `T2A/faq/bx/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `T2A/faq/b/n' in size <12> not available
+(Font)              Font shape `T2A/faq/bx/n' tried instead on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+faq on input line 32.
+LaTeX Font Info:    No file TS1faq.fd. on input line 32.
+
+
+LaTeX Font Warning: Font shape `TS1/faq/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 32.
+
+[1]
+<2211.png, id=43, 90.3375pt x 196.48407pt>
+File: 2211.png Graphic file (type png)
+<use 2211.png>
+Package pdftex.def Info: 2211.png  used on input line 81.
+(pdftex.def)             Requested size: 90.33727pt x 196.48358pt.
+ [2 </home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/2211.png (PNG copy)>]
+Overfull \hbox (5.47937pt too wide) in paragraph at lines 88--90
+\T2A/faq/m/n/12 Следовательно, рас-пре-де-ле-ние кон-цен-тра-ции в труб-ке $\OML/cmm/m/it/12 n\OT1/ntxtlf/m/n/12 (\OML/cmm/m/it/12 x\OT1/ntxtlf/m/n/12 )$ \T2A/faq/m/n/12 -- ли-ней-ная функ-ция: 
+ []
+
+[3] [4]
+<2212.png, id=57, 365.11406pt x 343.2825pt>
+File: 2212.png Graphic file (type png)
+<use 2212.png>
+Package pdftex.def Info: 2212.png  used on input line 138.
+(pdftex.def)             Requested size: 244.62514pt x 229.99806pt.
+ [5 </home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/2212.png (PNG copy)>]
+<2213.png, id=61, 384.6872pt x 244.66406pt>
+File: 2213.png Graphic file (type png)
+<use 2213.png>
+Package pdftex.def Info: 2213.png  used on input line 151.
+(pdftex.def)             Requested size: 384.68625pt x 244.66345pt.
+ [6 </home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/2213.png (PNG copy)>]
+PGFPlots: reading {40.csv}
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, could not retrieve column 't' from table '\\pgfplotstableread@filename@@table@name '. Please check spelling (or introduce name aliases)..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, could not retrieve column 'V' from table '\\pgfplotstableread@filename@@table@name '. Please check spelling (or introduce name aliases)..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+NOTE: coordinate (,) has been dropped because of a coordinate filter. (see also unbounded coords=jump). 
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That was another \errmessage.)
+
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183: Package pgfplots Error: Sorry, the requested column number '' in table '40.csv' does not exist!? Please verify you used the correct index 0 <= i < N..
+
+See the pgfplots package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 ...ble [y={V}, x={t}, col sep=tab] {40.csv};
+                                                  ^^M
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 32857 strings out of 481239
+ 795017 string characters out of 5920377
+ 1136892 words of memory out of 5000000
+ 47363 multiletter control sequences out of 15000+600000
+ 566005 words of font info for 80 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,8n,107p,1772b,1618s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+/home/viktoria/Desktop/MIPT_vikusv/1st grade/labs/2.2.1/Talashkevich.tex:183:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,110 +1,43 @@
-\documentclass[a4paper, 12pt]{article} % тип документа
+\documentclass[a4paper,12pt]{article} 
+\usepackage{baseset}
+\DeclareSymbolFont{operators}{OT1}{ntxtlf}{m}{n}
+\SetSymbolFont{operators}{bold}{OT1}{ntxtlf}{b}{n}
+\usepackage{wasysym}
+\usepackage{multirow}
+\usepackage{amssymb}
+\graphicspath{{images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
-%%%Библиотеки
-	%\usepackage[warn]{mathtext}	
-	%\usepackage[T2A]{fontenc}   %Кодировка
-	\usepackage[utf8]{inputenc} %Кодировка исходного текста
-	\usepackage[english, russian]{babel} %Локализация и переносы
-	\usepackage{caption}
-	\usepackage{listings}
-	\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}
-	\usepackage[warn]{mathtext}
-	\usepackage[mathscr]{eucal}
-	\usepackage{wasysym}
-	\usepackage{graphicx} %Вставка картинок правильная
-	\usepackage{indentfirst}
-	\usepackage{float}    %Плавающие картинки
-	\usepackage{wrapfig}  %Обтекание фигур (таблиц, картинок и прочего)
-	\usepackage{fancyhdr} %Загрузим пакет
-	\usepackage{lscape}
-	\usepackage{xcolor}
-	\usepackage[normalem]{ulem}
-	
-	\usepackage{titlesec}
-	\titlelabel{\thetitle.\quad}
+%Заговолок
+\author{Красоткина Виктория}
 
-	\usepackage{hyperref}
+\title{Лабораторная работа 2.3.1
 
-%%%Конец библиотек
+Современные средства получения и измерения вакуума}
 
-%%%Настройка ссылок
-	\hypersetup
-	{
-		colorlinks = true,
-		linkcolor  = blue,
-		filecolor  = magenta,
-		urlcolor   = blue
-	}
-%%%Конец настройки ссылок
-
-
-%%%Настройка колонтитулы
-	\pagestyle{fancy}
-	\fancyhead{}
-	\fancyhead[L]{2.3.1}
-	\fancyhead[R]{Красоткина Виктория, группа Б01-203}
-	\fancyfoot[C]{\thepage}
-%%%конец настройки колонтитулы
-
-
+\date{27 февраля 2023 г.}
 
 \begin{document}
-						%%%%Начало документа%%%%
 
+\maketitle
+\thispagestyle{empty}
 
-%%%Начало титульника
-\begin{titlepage}
+\newpage
+\setcounter{page}{1}
 
-	\newpage
-	\begin{center}
-		\normalsize Московский физико-технический институт \\(госудраственный университет)
-	\end{center}
+\section{Аннотация}
+\subsection{Цель работы}
 
-	\vspace{6em}
+\textbf{Цель работы:}
+\begin{itemize}
+	\item измерение объемов форвакуумной и высоковакуумной частей установки;
+	\item определение скорости откачки системы в стационарном режиме, а также по ухудшению и улучшению вакуума.
+\end{itemize}
 
-	\begin{center}
-		\Large Лабораторная работа по общему курсу физики\\Термодинамика и молекулярная физика
-	\end{center}
-
-	\vspace{1em}
-
-	\begin{center}
-		\Large \textbf{2.3.1. Современные средства
-получения и измерения вакуума}
-	\end{center}
-
-	\vspace{2em}
-
-	\begin{center}
-		\large Красоткина Виктория\\
-		Группа Б01-203
-	\end{center}
-
-	\vspace{\fill}
-
-	\begin{center}
-		Долгопрудный \\2023
-	\end{center}
-	
-\end{titlepage}
-%%%Конец Титульника
-
-
-
-%%%Настройка оглавления и нумерации страниц
-	\thispagestyle{empty}
-	\newpage
-	\tableofcontents
-	\newpage
-	\setcounter{page}{1}
-%%%Настройка оглавления и нумерации страниц
-
-
-					%%%%%%Начало работы с текстом%%%%%%
-
-\textbf{Цель работы:} 1) измерение объемов форвакуумной и высоковакуумной частей установки; 2) определение скорости откачки системы в стационарном режиме, а также по ухудшению и улучшению вакуума.\\
-
-\textbf{Используемое оборудование:} вакуумная установка с манометрами: масляным, термопарным и ионизационным.
+\textbf{Используемое оборудование:} 
+\begin{itemize}
+	\item вакуумная установка с манометрами: масляным, термопарным и ионизационным.
+\end{itemize}
 
 \section{Теоретические сведения}
 \subsection{Введение}
